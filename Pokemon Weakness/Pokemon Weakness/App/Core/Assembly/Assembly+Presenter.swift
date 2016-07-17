@@ -11,6 +11,8 @@ import Foundation
 extension Assembly {
     
     func getPokemonListPresenter() -> PokemonListPresenter {
-        return PokemonListPresenter()
+        return PokemonListPresenter(
+            pokemonListCollectionDataSource: getPokemonListCollectionDataSource()
+        )
     }
 }
