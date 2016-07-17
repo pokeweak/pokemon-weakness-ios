@@ -18,7 +18,8 @@ struct Assembly {
     /**
      Prevent default initializer
      */
-    private init() {}}
+    private init() {}
+}
 
 /**
  Get dependency from assembly
