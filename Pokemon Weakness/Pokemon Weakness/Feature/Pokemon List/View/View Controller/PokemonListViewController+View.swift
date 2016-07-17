@@ -1,5 +1,5 @@
 //
-//  PokemonListView.swift
+//  PokemonListViewController+View.swift
 //  Pokemon Weakness
 //
 //  Created by Oscar Duran on 17/7/16.
@@ -8,6 +8,6 @@
 
 import Foundation
 
-protocol PokemonListView: class, CollectionDataSourceUI {
+extension PokemonListViewController: PokemonListView {
     
 }
