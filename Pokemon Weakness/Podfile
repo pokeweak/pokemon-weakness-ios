@@ -1,0 +1,10 @@
+platform :ios, '8.0'
+
+target 'Pokemon Weakness' do
+
+  use_frameworks!
+
+  target 'Pokemon WeaknessTests' do
+    inherit! :search_paths
+  end
+end

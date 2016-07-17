@@ -1,0 +1,6 @@
+framework module Pods_Pokemon_Weakness {
+  umbrella header "Pods-Pokemon Weakness-umbrella.h"
+
+  export *
+  module * { export * }
+}

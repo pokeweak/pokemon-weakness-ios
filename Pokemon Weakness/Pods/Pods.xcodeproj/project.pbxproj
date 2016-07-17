@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0660599517DE5A9E3810C2263C55E4A9 /* Pods-Pokemon Weakness-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8890A6466A6EECE67B6BB01553C934E6 /* Pods-Pokemon Weakness-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0889A34F6C387F0B9D0397A9C5573471 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		68D28B03214F35EE67FC1EF6F6115E2F /* Pods-Pokemon Weakness-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD97297AF1A95F3639AE29AFFCBEB92 /* Pods-Pokemon Weakness-dummy.m */; };
+		B35AD86EE69AFE12E94B46607CDC562B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		D81E11632AC7550A6DEF67FFD986A4C4 /* Pods-Pokemon WeaknessTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CCB3ED2E8108BD2B845FF1121071D36D /* Pods-Pokemon WeaknessTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E46C418FD01D261B92515E4F73893041 /* Pods-Pokemon WeaknessTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C8B7CC89DBF30507D563E37D343E45 /* Pods-Pokemon WeaknessTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		268AE1CAF7560400D8E79425F95F97A7 /* Pods_Pokemon_WeaknessTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pokemon_WeaknessTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B28D3FDFE29B73D6159CC1C9EC7A971 /* Pods-Pokemon Weakness-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Pokemon Weakness-acknowledgements.markdown"; sourceTree = "<group>"; };
+		41DFD32BFF5096E4723C45A3B9E4C0A8 /* Pods-Pokemon Weakness-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Pokemon Weakness-frameworks.sh"; sourceTree = "<group>"; };
+		5179F4A8CAAEA57A1C5FA5CD646BC2D7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B6AED6D6E514CC9E1E083854F69C1DA /* Pods-Pokemon WeaknessTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Pokemon WeaknessTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5B721B069B7F61F3EE65769727A03EF7 /* Pods-Pokemon Weakness-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Pokemon Weakness-resources.sh"; sourceTree = "<group>"; };
+		64DE2E7F7F5E1AD91F32AC6AE16A41F4 /* Pods-Pokemon WeaknessTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pokemon WeaknessTests.release.xcconfig"; sourceTree = "<group>"; };
+		6763E5B820A341519A1CB4D3065F7E84 /* Pods-Pokemon Weakness.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Pokemon Weakness.modulemap"; sourceTree = "<group>"; };
+		6FA7332475BA9FFE2A0134D0A3645CDA /* Pods-Pokemon WeaknessTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Pokemon WeaknessTests-frameworks.sh"; sourceTree = "<group>"; };
+		8890A6466A6EECE67B6BB01553C934E6 /* Pods-Pokemon Weakness-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Pokemon Weakness-umbrella.h"; sourceTree = "<group>"; };
+		8A909570862C275C87B6C05930BD1B35 /* Pods-Pokemon Weakness.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pokemon Weakness.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A6067134293C6D656CD3694825A6B14D /* Pods-Pokemon Weakness-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Pokemon Weakness-acknowledgements.plist"; sourceTree = "<group>"; };
+		AA9E090F742E7252E4562762090E258F /* Pods-Pokemon WeaknessTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Pokemon WeaknessTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B0C8B7CC89DBF30507D563E37D343E45 /* Pods-Pokemon WeaknessTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Pokemon WeaknessTests-dummy.m"; sourceTree = "<group>"; };
+		B9ED027AC71F93339DBE7F0B366A0563 /* Pods_Pokemon_Weakness.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pokemon_Weakness.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA620901D46B166F964E4D0CBB55C9FE /* Pods-Pokemon Weakness.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pokemon Weakness.release.xcconfig"; sourceTree = "<group>"; };
+		C14A7DC40BDB9F9026F49FEEAC00FF60 /* Pods-Pokemon WeaknessTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Pokemon WeaknessTests.modulemap"; sourceTree = "<group>"; };
+		C3F5FCB484B1B67325F267763F8654DF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCB3ED2E8108BD2B845FF1121071D36D /* Pods-Pokemon WeaknessTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Pokemon WeaknessTests-umbrella.h"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DDD97297AF1A95F3639AE29AFFCBEB92 /* Pods-Pokemon Weakness-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Pokemon Weakness-dummy.m"; sourceTree = "<group>"; };
+		E4A3FF6F918701988024B1CC6FF37720 /* Pods-Pokemon WeaknessTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pokemon WeaknessTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F287213469C0A1976503D415203FBD2E /* Pods-Pokemon WeaknessTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Pokemon WeaknessTests-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98700F0C99A8DF684A6BB2ACFD8DE49E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0889A34F6C387F0B9D0397A9C5573471 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD715F10A1C0265C314B939962BCCECB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B35AD86EE69AFE12E94B46607CDC562B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CDA69626704036390C3378A3B713F63 /* Pods-Pokemon WeaknessTests */ = {
+			isa = PBXGroup;
+			children = (
+				C3F5FCB484B1B67325F267763F8654DF /* Info.plist */,
+				C14A7DC40BDB9F9026F49FEEAC00FF60 /* Pods-Pokemon WeaknessTests.modulemap */,
+				AA9E090F742E7252E4562762090E258F /* Pods-Pokemon WeaknessTests-acknowledgements.markdown */,
+				5B6AED6D6E514CC9E1E083854F69C1DA /* Pods-Pokemon WeaknessTests-acknowledgements.plist */,
+				B0C8B7CC89DBF30507D563E37D343E45 /* Pods-Pokemon WeaknessTests-dummy.m */,
+				6FA7332475BA9FFE2A0134D0A3645CDA /* Pods-Pokemon WeaknessTests-frameworks.sh */,
+				F287213469C0A1976503D415203FBD2E /* Pods-Pokemon WeaknessTests-resources.sh */,
+				CCB3ED2E8108BD2B845FF1121071D36D /* Pods-Pokemon WeaknessTests-umbrella.h */,
+				E4A3FF6F918701988024B1CC6FF37720 /* Pods-Pokemon WeaknessTests.debug.xcconfig */,
+				64DE2E7F7F5E1AD91F32AC6AE16A41F4 /* Pods-Pokemon WeaknessTests.release.xcconfig */,
+			);
+			name = "Pods-Pokemon WeaknessTests";
+			path = "Target Support Files/Pods-Pokemon WeaknessTests";
+			sourceTree = "<group>";
+		};
+		2D4AFA7E74520F2B91B2101960A0C682 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7ED6BE1671DAF76D2A31E8AA832985BA /* Pods-Pokemon Weakness */,
+				0CDA69626704036390C3378A3B713F63 /* Pods-Pokemon WeaknessTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		61B19AC7019724451E57E70CC74AECB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9ED027AC71F93339DBE7F0B366A0563 /* Pods_Pokemon_Weakness.framework */,
+				268AE1CAF7560400D8E79425F95F97A7 /* Pods_Pokemon_WeaknessTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				61B19AC7019724451E57E70CC74AECB0 /* Products */,
+				2D4AFA7E74520F2B91B2101960A0C682 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7ED6BE1671DAF76D2A31E8AA832985BA /* Pods-Pokemon Weakness */ = {
+			isa = PBXGroup;
+			children = (
+				5179F4A8CAAEA57A1C5FA5CD646BC2D7 /* Info.plist */,
+				6763E5B820A341519A1CB4D3065F7E84 /* Pods-Pokemon Weakness.modulemap */,
+				3B28D3FDFE29B73D6159CC1C9EC7A971 /* Pods-Pokemon Weakness-acknowledgements.markdown */,
+				A6067134293C6D656CD3694825A6B14D /* Pods-Pokemon Weakness-acknowledgements.plist */,
+				DDD97297AF1A95F3639AE29AFFCBEB92 /* Pods-Pokemon Weakness-dummy.m */,
+				41DFD32BFF5096E4723C45A3B9E4C0A8 /* Pods-Pokemon Weakness-frameworks.sh */,
+				5B721B069B7F61F3EE65769727A03EF7 /* Pods-Pokemon Weakness-resources.sh */,
+				8890A6466A6EECE67B6BB01553C934E6 /* Pods-Pokemon Weakness-umbrella.h */,
+				8A909570862C275C87B6C05930BD1B35 /* Pods-Pokemon Weakness.debug.xcconfig */,
+				BA620901D46B166F964E4D0CBB55C9FE /* Pods-Pokemon Weakness.release.xcconfig */,
+			);
+			name = "Pods-Pokemon Weakness";
+			path = "Target Support Files/Pods-Pokemon Weakness";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		15F86BB070E34F1654EDFC1982469DBD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D81E11632AC7550A6DEF67FFD986A4C4 /* Pods-Pokemon WeaknessTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81F75DBFABCE67727E623121E353C7BB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0660599517DE5A9E3810C2263C55E4A9 /* Pods-Pokemon Weakness-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6D52FAB398C6FFBCE83299DFDC2F6E89 /* Pods-Pokemon Weakness */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D58FE9E5EFF72952510A538B442507F2 /* Build configuration list for PBXNativeTarget "Pods-Pokemon Weakness" */;
+			buildPhases = (
+				4B39AE96577873DBD1A15ADBB6A3FB26 /* Sources */,
+				AD715F10A1C0265C314B939962BCCECB /* Frameworks */,
+				81F75DBFABCE67727E623121E353C7BB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Pokemon Weakness";
+			productName = "Pods-Pokemon Weakness";
+			productReference = B9ED027AC71F93339DBE7F0B366A0563 /* Pods_Pokemon_Weakness.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E68FB8C03DB45FA59D05D0D297D5161B /* Pods-Pokemon WeaknessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6B90C4A47C44051B3BF73FDB8185BFB /* Build configuration list for PBXNativeTarget "Pods-Pokemon WeaknessTests" */;
+			buildPhases = (
+				8F563A5273B38F5BBD98B62F584BFB5E /* Sources */,
+				98700F0C99A8DF684A6BB2ACFD8DE49E /* Frameworks */,
+				15F86BB070E34F1654EDFC1982469DBD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Pokemon WeaknessTests";
+			productName = "Pods-Pokemon WeaknessTests";
+			productReference = 268AE1CAF7560400D8E79425F95F97A7 /* Pods_Pokemon_WeaknessTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 61B19AC7019724451E57E70CC74AECB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D52FAB398C6FFBCE83299DFDC2F6E89 /* Pods-Pokemon Weakness */,
+				E68FB8C03DB45FA59D05D0D297D5161B /* Pods-Pokemon WeaknessTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B39AE96577873DBD1A15ADBB6A3FB26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68D28B03214F35EE67FC1EF6F6115E2F /* Pods-Pokemon Weakness-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F563A5273B38F5BBD98B62F584BFB5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E46C418FD01D261B92515E4F73893041 /* Pods-Pokemon WeaknessTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		27D1ECE823F89A863959513F0D39E3EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64DE2E7F7F5E1AD91F32AC6AE16A41F4 /* Pods-Pokemon WeaknessTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Pokemon WeaknessTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Pokemon WeaknessTests/Pods-Pokemon WeaknessTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Pokemon_WeaknessTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		47BEF9D903506B003EA5C2B249729489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5DA1FC08205E0E08267F1338C94A5E3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA620901D46B166F964E4D0CBB55C9FE /* Pods-Pokemon Weakness.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Pokemon Weakness/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Pokemon Weakness/Pods-Pokemon Weakness.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Pokemon_Weakness;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		63A842B14E079F5AEEBF6CE25613E3C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4A3FF6F918701988024B1CC6FF37720 /* Pods-Pokemon WeaknessTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Pokemon WeaknessTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Pokemon WeaknessTests/Pods-Pokemon WeaknessTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Pokemon_WeaknessTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		97B464B9183B7963B31CBC50F8BCA881 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A909570862C275C87B6C05930BD1B35 /* Pods-Pokemon Weakness.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Pokemon Weakness/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Pokemon Weakness/Pods-Pokemon Weakness.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Pokemon_Weakness;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AAF678CED40D3499169D10F63CA0719E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47BEF9D903506B003EA5C2B249729489 /* Debug */,
+				AAF678CED40D3499169D10F63CA0719E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D58FE9E5EFF72952510A538B442507F2 /* Build configuration list for PBXNativeTarget "Pods-Pokemon Weakness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97B464B9183B7963B31CBC50F8BCA881 /* Debug */,
+				5DA1FC08205E0E08267F1338C94A5E3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6B90C4A47C44051B3BF73FDB8185BFB /* Build configuration list for PBXNativeTarget "Pods-Pokemon WeaknessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63A842B14E079F5AEEBF6CE25613E3C8 /* Debug */,
+				27D1ECE823F89A863959513F0D39E3EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
