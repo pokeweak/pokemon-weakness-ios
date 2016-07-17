@@ -11,6 +11,12 @@ import Foundation
 extension Assembly {
     
     func getApplicationController() -> ApplicationController {
-        return ApplicationController()
+        return ApplicationController(
+            windowCoordinator: getWindowCoordinator()
+        )
+    }
+    
+    func getWindowCoordinator() -> WindowCoordinable {
+        return DefaultWindowCoordinable()
     }
 }
