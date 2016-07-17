@@ -8,6 +8,6 @@
 
 import Foundation
 
-protocol PokemonListView: class, CollectionDataSourceUI {
+protocol PokemonListView: class, CollectionDataSourceUI, CollectionUI {
     
 }
