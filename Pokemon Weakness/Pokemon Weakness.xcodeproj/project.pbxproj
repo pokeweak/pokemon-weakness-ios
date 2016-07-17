@@ -19,6 +19,7 @@
 		2EB395681D3BFAB600BDA594 /* DependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB395671D3BFAB600BDA594 /* DependencyContainer.swift */; };
 		2EB3956A1D3BFB6A00BDA594 /* DefaultDependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB395691D3BFB6A00BDA594 /* DefaultDependencyContainer.swift */; };
 		2EB395701D3BFC3E00BDA594 /* DefaultDependencyContainerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB3956F1D3BFC3E00BDA594 /* DefaultDependencyContainerSpec.swift */; };
+		2EB395751D3BFE2900BDA594 /* TestEnviromentDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB395741D3BFE2900BDA594 /* TestEnviromentDetector.swift */; };
 		D0128FE5129B3EAF61AF32FC /* Pods_Pokemon_WeaknessTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C3F93B1B8C746A248FF36FD /* Pods_Pokemon_WeaknessTests.framework */; };
 		E8E29466760E68073664613E /* Pods_Pokemon_Weakness.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6341A1D1B18B004FA4EB199 /* Pods_Pokemon_Weakness.framework */; };
 /* End PBXBuildFile section */
@@ -50,6 +51,7 @@
 		2EB395671D3BFAB600BDA594 /* DependencyContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DependencyContainer.swift; sourceTree = "<group>"; };
 		2EB395691D3BFB6A00BDA594 /* DefaultDependencyContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultDependencyContainer.swift; sourceTree = "<group>"; };
 		2EB3956F1D3BFC3E00BDA594 /* DefaultDependencyContainerSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultDependencyContainerSpec.swift; sourceTree = "<group>"; };
+		2EB395741D3BFE2900BDA594 /* TestEnviromentDetector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestEnviromentDetector.swift; sourceTree = "<group>"; };
 		6473391D288683B6158A31AA /* Pods-Pokemon WeaknessTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pokemon WeaknessTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pokemon WeaknessTests/Pods-Pokemon WeaknessTests.debug.xcconfig"; sourceTree = "<group>"; };
 		75B37CA464CBDB4B18A19BAC /* Pods-Pokemon WeaknessTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pokemon WeaknessTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pokemon WeaknessTests/Pods-Pokemon WeaknessTests.release.xcconfig"; sourceTree = "<group>"; };
 		9C3F93B1B8C746A248FF36FD /* Pods_Pokemon_WeaknessTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pokemon_WeaknessTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -123,6 +125,7 @@
 			children = (
 				2EB395321D3BE92E00BDA594 /* AppDelegate.swift */,
 				2EB3955E1D3BF81D00BDA594 /* Core */,
+				2EB395711D3BFE1300BDA594 /* Common */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -277,6 +280,30 @@
 				2EB3956F1D3BFC3E00BDA594 /* DefaultDependencyContainerSpec.swift */,
 			);
 			path = "Dependency Container";
+			sourceTree = "<group>";
+		};
+		2EB395711D3BFE1300BDA594 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				2EB395721D3BFE1300BDA594 /* Utils */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		2EB395721D3BFE1300BDA594 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				2EB395731D3BFE1300BDA594 /* Test Enviroment Detector */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		2EB395731D3BFE1300BDA594 /* Test Enviroment Detector */ = {
+			isa = PBXGroup;
+			children = (
+				2EB395741D3BFE2900BDA594 /* TestEnviromentDetector.swift */,
+			);
+			path = "Test Enviroment Detector";
 			sourceTree = "<group>";
 		};
 		73D6D18F2FCB8DAD1B84BF75 /* Frameworks */ = {
@@ -502,6 +529,7 @@
 				2EB3955D1D3BF7E700BDA594 /* PokemonRepository.swift in Sources */,
 				2EB395341D3BE92E00BDA594 /* AppDelegate.swift in Sources */,
 				2EB3956A1D3BFB6A00BDA594 /* DefaultDependencyContainer.swift in Sources */,
+				2EB395751D3BFE2900BDA594 /* TestEnviromentDetector.swift in Sources */,
 				2EB395651D3BF9AF00BDA594 /* Assembly.swift in Sources */,
 				2EB3955C1D3BF7E700BDA594 /* PokemonDataSource.swift in Sources */,
 				2EB395621D3BF83100BDA594 /* Task.swift in Sources */,
