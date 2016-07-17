@@ -16,11 +16,11 @@
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pga-lH-nP8" userLabel="Top Container" customClass="RoundedCornersImageView" customModule="Pokemon_Weakness" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="112" height="90"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LBQ-jF-jLk">
-                                <rect key="frame" x="21" y="12" width="70" height="65"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="test" translatesAutoresizingMaskIntoConstraints="NO" id="LBQ-jF-jLk">
+                                <rect key="frame" x="25" y="15.5" width="62" height="58"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="65" id="4ZX-x0-b0H"/>
-                                    <constraint firstAttribute="width" constant="70" id="iOo-6g-Msa"/>
+                                    <constraint firstAttribute="height" constant="58" id="4ZX-x0-b0H"/>
+                                    <constraint firstAttribute="width" constant="62" id="iOo-6g-Msa"/>
                                 </constraints>
                             </imageView>
                         </subviews>
@@ -80,4 +80,7 @@
             <point key="canvasLocation" x="23" y="257"/>
         </collectionViewCell>
     </objects>
+    <resources>
+        <image name="test" width="200" height="186"/>
+    </resources>
 </document>
