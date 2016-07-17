@@ -52,6 +52,11 @@
                 <constraint firstAttribute="trailing" secondItem="QjH-rk-0iR" secondAttribute="trailing" constant="8" id="ia8-cu-dA8"/>
                 <constraint firstItem="LBQ-jF-jLk" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="m9s-dU-tkN"/>
             </constraints>
+            <connections>
+                <outlet property="pokemonImageView" destination="LBQ-jF-jLk" id="1hk-lY-3XD"/>
+                <outlet property="pokemonNameLabel" destination="QjH-rk-0iR" id="kz8-UD-NFi"/>
+                <outlet property="pokemonNumberLabel" destination="JoQ-ca-fZs" id="STV-WP-Vws"/>
+            </connections>
         </collectionViewCell>
     </objects>
 </document>

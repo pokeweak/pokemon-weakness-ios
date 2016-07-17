@@ -10,6 +10,11 @@ import UIKit
 
 class PokemonItemCell: UICollectionViewCell {
 
+    @IBOutlet weak var pokemonImageView: UIImageView!
+ 
+    @IBOutlet weak var pokemonNumberLabel: UILabel!
+    @IBOutlet weak var pokemonNameLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
     }
