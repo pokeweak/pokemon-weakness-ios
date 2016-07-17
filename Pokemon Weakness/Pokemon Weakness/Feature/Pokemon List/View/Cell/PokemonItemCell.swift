@@ -8,8 +8,15 @@
 
 import UIKit
 
-class PokemonItemCell: UICollectionViewCell {
+class PokemonItemCell: UICollectionViewCell, SizableCollectionCell {
 
+    static var size: CGSize {
+        return CGSize(
+            width: 112,
+            height: 146
+        )
+    }
+    
     @IBOutlet weak var topContainerView: UIView!
     @IBOutlet weak var pokemonImageView: UIImageView!
  

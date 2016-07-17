@@ -45,6 +45,6 @@ class PokemonListCollectionDataSource<T>: CollectionDataSource<PokemonViewModel>
     }
     
     override func collection<T: UICollectionView>(collection: T, sizeForRowAtIndexPath: NSIndexPath) -> CGSize {
-        return CGSize(width: 112, height: 146)
+        return PokemonItemCell.size
     }
 }
