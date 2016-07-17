@@ -7,13 +7,13 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="PokemonItemCell" customModule="Pokemon_Weakness" customModuleProvider="target">
+        <collectionViewCell opaque="NO" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="PokemonItemCell" customModule="Pokemon_Weakness" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="112" height="146"/>
             <autoresizingMask key="autoresizingMask"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                 <rect key="frame" x="0.0" y="0.0" width="112" height="146"/>
                 <subviews>
-                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pga-lH-nP8" userLabel="Top Container">
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pga-lH-nP8" userLabel="Top Container" customClass="RoundedCornersImageView" customModule="Pokemon_Weakness" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="112" height="90"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LBQ-jF-jLk">
@@ -30,6 +30,13 @@
                             <constraint firstItem="LBQ-jF-jLk" firstAttribute="centerY" secondItem="pga-lH-nP8" secondAttribute="centerY" id="nTi-ZM-gko"/>
                             <constraint firstItem="LBQ-jF-jLk" firstAttribute="centerX" secondItem="pga-lH-nP8" secondAttribute="centerX" id="vJP-kq-cKq"/>
                         </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="enableTopLeftCornerRadius" value="YES"/>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="enableTopRightCornerRadius" value="YES"/>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <integer key="value" value="4"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
                     </view>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JoQ-ca-fZs">
                         <rect key="frame" x="8" y="98" width="96" height="21"/>
