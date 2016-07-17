@@ -4,7 +4,12 @@ target 'Pokemon Weakness' do
 
   use_frameworks!
 
+  pod 'PromiseKit/CorePromise', '~> 3.2'        # A delightful Promises implementation for iOS and OS X
+
   target 'Pokemon WeaknessTests' do
     inherit! :search_paths
+
+    pod 'Quick', '~> 0.9'    					# The Swift (and Objective-C) testing framework
+	pod 'Nimble', '~> 4.1'						# A Matcher Framework for Swift and Objective-C
   end
 end
