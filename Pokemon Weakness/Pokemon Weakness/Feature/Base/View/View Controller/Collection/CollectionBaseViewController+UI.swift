@@ -10,6 +10,12 @@ import Foundation
 
 extension CollectionBaseViewController: CollectionUI {
     
+    override func configureUI() {
+        super.configureUI()
+        
+        collectionView?.backgroundColor = .catskillWhite()
+    }
+    
     func reload(animated: Bool) {
         collectionView?.reloadData()
     }
