@@ -8,9 +8,9 @@
 
 import UIKit
 
-class CollectionDataSource<T>: NSObject, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
+class CollectionDataSource<T>: NSObject, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout, CollectionViewDataSource {
     
-    var items = [T]()
+    var items: [T] = []
     
     // MARK: - CollectionViewDataSource
     
