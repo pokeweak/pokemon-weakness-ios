@@ -10,7 +10,7 @@ import UIKit
 
 private let defaultShadowColor: UIColor = .blackColor()
 private let defaultShadowRadius: Float = 4.0
-private let defaultShadowOpacity: Float = 0.2
+private let defaultShadowOpacity: Float = 0.10
 private let defaultCornerRadius: Float = 0
 
 extension UIView {
