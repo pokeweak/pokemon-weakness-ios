@@ -11,6 +11,8 @@ import Foundation
 extension Assembly: PokemonListViewControllerProvider {
     
     func pokemonListViewController() -> PokemonListViewController {
-        return PokemonListViewController()
+        return PokemonListViewController(
+            pokemonListPresenter: getPokemonListPresenter()
+        )
     }
 }

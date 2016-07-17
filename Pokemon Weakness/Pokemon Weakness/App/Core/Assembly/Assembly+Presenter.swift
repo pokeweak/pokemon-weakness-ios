@@ -1,5 +1,5 @@
 //
-//  PokemonListPresenter.swift
+//  Assembly+Presenter.swift
 //  Pokemon Weakness
 //
 //  Created by Oscar Duran on 17/7/16.
@@ -8,11 +8,9 @@
 
 import Foundation
 
-class PokemonListPresenter {
+extension Assembly {
     
-    weak var view: PokemonListView?
-    
-    func viewDidLoad() {
-        
+    func getPokemonListPresenter() -> PokemonListPresenter {
+        return PokemonListPresenter()
     }
 }
