@@ -11,12 +11,18 @@ import Foundation
 extension Assembly {
     
     func getApplicationController() -> ApplicationController {
-        return ApplicationController(
+        
+        let applicationController = ApplicationController(
             windowCoordinator: getWindowCoordinator()
         )
+        applicationController.window = getApplicationWindow()
+        
+        return applicationController
     }
     
     func getWindowCoordinator() -> WindowCoordinable {
-        return DefaultWindowCoordinable()
+        return DefaultWindowCoordinable(
+            pokemonListViewControllerProvider: self
+        )
     }
 }
