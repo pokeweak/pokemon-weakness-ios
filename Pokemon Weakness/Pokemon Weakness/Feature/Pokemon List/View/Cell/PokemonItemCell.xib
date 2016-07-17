@@ -13,6 +13,24 @@
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                 <rect key="frame" x="0.0" y="0.0" width="112" height="146"/>
                 <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pga-lH-nP8" userLabel="Top Container">
+                        <rect key="frame" x="0.0" y="0.0" width="112" height="90"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LBQ-jF-jLk">
+                                <rect key="frame" x="21" y="12" width="70" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="65" id="4ZX-x0-b0H"/>
+                                    <constraint firstAttribute="width" constant="70" id="iOo-6g-Msa"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.12549019610000001" green="0.53333333329999999" blue="0.76078431369999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="90" id="LEq-pR-Epm"/>
+                            <constraint firstItem="LBQ-jF-jLk" firstAttribute="centerY" secondItem="pga-lH-nP8" secondAttribute="centerY" id="nTi-ZM-gko"/>
+                            <constraint firstItem="LBQ-jF-jLk" firstAttribute="centerX" secondItem="pga-lH-nP8" secondAttribute="centerX" id="vJP-kq-cKq"/>
+                        </constraints>
+                    </view>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JoQ-ca-fZs">
                         <rect key="frame" x="8" y="98" width="96" height="21"/>
                         <constraints>
@@ -31,32 +49,28 @@
                         <color key="textColor" red="0.16470588235294117" green="0.23529411764705882" blue="0.29411764705882354" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LBQ-jF-jLk">
-                        <rect key="frame" x="0.0" y="0.0" width="112" height="90"/>
-                        <color key="backgroundColor" red="0.12549019610000001" green="0.53333333329999999" blue="0.76078431369999999" alpha="1" colorSpace="calibratedRGB"/>
-                        <constraints>
-                            <constraint firstAttribute="height" constant="90" id="owt-1Q-93z"/>
-                        </constraints>
-                    </imageView>
                 </subviews>
                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             </view>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
-                <constraint firstItem="JoQ-ca-fZs" firstAttribute="top" secondItem="LBQ-jF-jLk" secondAttribute="bottom" constant="8" id="4RR-ll-g7I"/>
-                <constraint firstAttribute="trailing" secondItem="LBQ-jF-jLk" secondAttribute="trailing" id="66W-7N-27u"/>
+                <constraint firstAttribute="trailing" secondItem="pga-lH-nP8" secondAttribute="trailing" id="06m-ul-IsI"/>
                 <constraint firstItem="QjH-rk-0iR" firstAttribute="top" secondItem="JoQ-ca-fZs" secondAttribute="bottom" constant="-3" id="6ry-Rt-lyU"/>
-                <constraint firstItem="LBQ-jF-jLk" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Mzz-eg-fC2"/>
+                <constraint firstItem="pga-lH-nP8" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="83E-mO-77P"/>
                 <constraint firstItem="JoQ-ca-fZs" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="Pus-Zl-Cqp"/>
                 <constraint firstItem="QjH-rk-0iR" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="aNU-Lm-bKr"/>
+                <constraint firstItem="pga-lH-nP8" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="baj-LC-huY"/>
                 <constraint firstAttribute="trailing" secondItem="JoQ-ca-fZs" secondAttribute="trailing" constant="8" id="e39-yv-lgw"/>
+                <constraint firstItem="JoQ-ca-fZs" firstAttribute="top" secondItem="pga-lH-nP8" secondAttribute="bottom" constant="8" id="iKf-K8-P8h"/>
                 <constraint firstAttribute="trailing" secondItem="QjH-rk-0iR" secondAttribute="trailing" constant="8" id="ia8-cu-dA8"/>
-                <constraint firstItem="LBQ-jF-jLk" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="m9s-dU-tkN"/>
             </constraints>
             <connections>
                 <outlet property="pokemonImageView" destination="LBQ-jF-jLk" id="1hk-lY-3XD"/>
                 <outlet property="pokemonNameLabel" destination="QjH-rk-0iR" id="kz8-UD-NFi"/>
                 <outlet property="pokemonNumberLabel" destination="JoQ-ca-fZs" id="STV-WP-Vws"/>
+                <outlet property="topContainerView" destination="pga-lH-nP8" id="bJe-7W-RXI"/>
             </connections>
+            <point key="canvasLocation" x="23" y="257"/>
         </collectionViewCell>
     </objects>
 </document>

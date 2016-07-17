@@ -23,6 +23,6 @@ extension PokemonItemCell: PokemonItemCellView {
     }
     
     func setColor(color: UIColor) {
-        pokemonImageView.backgroundColor = color
+        topContainerView.backgroundColor = color
     }
 }

@@ -10,6 +10,7 @@ import UIKit
 
 class PokemonItemCell: UICollectionViewCell {
 
+    @IBOutlet weak var topContainerView: UIView!
     @IBOutlet weak var pokemonImageView: UIImageView!
  
     @IBOutlet weak var pokemonNumberLabel: UILabel!
