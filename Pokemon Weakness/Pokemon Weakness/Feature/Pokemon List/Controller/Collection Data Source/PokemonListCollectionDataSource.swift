@@ -8,11 +8,15 @@
 
 import UIKit
 
+private struct PokemonItemCellConfiguration {
+    static let cornerRadius: Float = 4
+}
+
 class PokemonListCollectionDataSource<T>: CollectionDataSource<PokemonViewModel> {
     
     let screen: UIScreen
     let pokemonItemCellRenderer: PokemonItemCellRenderer
-    
+
     init(screen: UIScreen,
          pokemonItemCellRenderer: PokemonItemCellRenderer)
     {
@@ -21,7 +25,12 @@ class PokemonListCollectionDataSource<T>: CollectionDataSource<PokemonViewModel>
     }
     
     override func cellForRowAtIndexPath<C: UICollectionView>(collection: C, indexPath: NSIndexPath) -> UICollectionViewCell {
+        
         let cell: PokemonItemCell = collection.dequeueReusableCell(forIndexPath: indexPath)
+        cell.applyShadow()
+        cell.applyCornerRadius(
+            PokemonItemCellConfiguration.cornerRadius
+        )
         return cell
     }
     
@@ -36,6 +45,6 @@ class PokemonListCollectionDataSource<T>: CollectionDataSource<PokemonViewModel>
     }
     
     override func collection<T: UICollectionView>(collection: T, sizeForRowAtIndexPath: NSIndexPath) -> CGSize {
-        return CGSize(width: 30, height: 30)
+        return CGSize(width: 112, height: 146)
     }
 }
