@@ -6,7 +6,6 @@
 //  Copyright © 2016 Skydev. All rights reserved.
 //
 
-import Foundation
 import PromiseKit
 
 protocol PokemonRepository {
