@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E89526F1D3BE35E00E7DBCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E89526E1D3BE35E00E7DBCD /* AppDelegate.swift */; };
+		2E8952761D3BE35F00E7DBCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E8952751D3BE35F00E7DBCD /* Assets.xcassets */; };
+		2E8952791D3BE35F00E7DBCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E8952771D3BE35F00E7DBCD /* LaunchScreen.storyboard */; };
+		2E8952841D3BE35F00E7DBCD /* Pokemon_WeaknessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8952831D3BE35F00E7DBCD /* Pokemon_WeaknessTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E8952801D3BE35F00E7DBCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E8952631D3BE35E00E7DBCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E89526A1D3BE35E00E7DBCD;
+			remoteInfo = "Pokemon Weakness";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2E89526B1D3BE35E00E7DBCD /* Pokemon Weakness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pokemon Weakness.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E89526E1D3BE35E00E7DBCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2E8952751D3BE35F00E7DBCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E8952781D3BE35F00E7DBCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2E89527A1D3BE35F00E7DBCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E89527F1D3BE35F00E7DBCD /* Pokemon WeaknessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pokemon WeaknessTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E8952831D3BE35F00E7DBCD /* Pokemon_WeaknessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon_WeaknessTests.swift; sourceTree = "<group>"; };
+		2E8952851D3BE35F00E7DBCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E8952681D3BE35E00E7DBCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E89527C1D3BE35F00E7DBCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E8952621D3BE35E00E7DBCD = {
+			isa = PBXGroup;
+			children = (
+				2E89526D1D3BE35E00E7DBCD /* Pokemon Weakness */,
+				2E8952821D3BE35F00E7DBCD /* Pokemon WeaknessTests */,
+				2E89526C1D3BE35E00E7DBCD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E89526C1D3BE35E00E7DBCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E89526B1D3BE35E00E7DBCD /* Pokemon Weakness.app */,
+				2E89527F1D3BE35F00E7DBCD /* Pokemon WeaknessTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E89526D1D3BE35E00E7DBCD /* Pokemon Weakness */ = {
+			isa = PBXGroup;
+			children = (
+				2E89526E1D3BE35E00E7DBCD /* AppDelegate.swift */,
+				2E8952751D3BE35F00E7DBCD /* Assets.xcassets */,
+				2E8952771D3BE35F00E7DBCD /* LaunchScreen.storyboard */,
+				2E89527A1D3BE35F00E7DBCD /* Info.plist */,
+			);
+			path = "Pokemon Weakness";
+			sourceTree = "<group>";
+		};
+		2E8952821D3BE35F00E7DBCD /* Pokemon WeaknessTests */ = {
+			isa = PBXGroup;
+			children = (
+				2E8952831D3BE35F00E7DBCD /* Pokemon_WeaknessTests.swift */,
+				2E8952851D3BE35F00E7DBCD /* Info.plist */,
+			);
+			path = "Pokemon WeaknessTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E89526A1D3BE35E00E7DBCD /* Pokemon Weakness */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E8952881D3BE35F00E7DBCD /* Build configuration list for PBXNativeTarget "Pokemon Weakness" */;
+			buildPhases = (
+				2E8952671D3BE35E00E7DBCD /* Sources */,
+				2E8952681D3BE35E00E7DBCD /* Frameworks */,
+				2E8952691D3BE35E00E7DBCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pokemon Weakness";
+			productName = "Pokemon Weakness";
+			productReference = 2E89526B1D3BE35E00E7DBCD /* Pokemon Weakness.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2E89527E1D3BE35F00E7DBCD /* Pokemon WeaknessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E89528B1D3BE35F00E7DBCD /* Build configuration list for PBXNativeTarget "Pokemon WeaknessTests" */;
+			buildPhases = (
+				2E89527B1D3BE35F00E7DBCD /* Sources */,
+				2E89527C1D3BE35F00E7DBCD /* Frameworks */,
+				2E89527D1D3BE35F00E7DBCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E8952811D3BE35F00E7DBCD /* PBXTargetDependency */,
+			);
+			name = "Pokemon WeaknessTests";
+			productName = "Pokemon WeaknessTests";
+			productReference = 2E89527F1D3BE35F00E7DBCD /* Pokemon WeaknessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E8952631D3BE35E00E7DBCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Skydev;
+				TargetAttributes = {
+					2E89526A1D3BE35E00E7DBCD = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					2E89527E1D3BE35F00E7DBCD = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 2E89526A1D3BE35E00E7DBCD;
+					};
+				};
+			};
+			buildConfigurationList = 2E8952661D3BE35E00E7DBCD /* Build configuration list for PBXProject "Pokemon Weakness" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E8952621D3BE35E00E7DBCD;
+			productRefGroup = 2E89526C1D3BE35E00E7DBCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E89526A1D3BE35E00E7DBCD /* Pokemon Weakness */,
+				2E89527E1D3BE35F00E7DBCD /* Pokemon WeaknessTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E8952691D3BE35E00E7DBCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E8952791D3BE35F00E7DBCD /* LaunchScreen.storyboard in Resources */,
+				2E8952761D3BE35F00E7DBCD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E89527D1D3BE35F00E7DBCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E8952671D3BE35E00E7DBCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E89526F1D3BE35E00E7DBCD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E89527B1D3BE35F00E7DBCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E8952841D3BE35F00E7DBCD /* Pokemon_WeaknessTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E8952811D3BE35F00E7DBCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E89526A1D3BE35E00E7DBCD /* Pokemon Weakness */;
+			targetProxy = 2E8952801D3BE35F00E7DBCD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2E8952771D3BE35F00E7DBCD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E8952781D3BE35F00E7DBCD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E8952861D3BE35F00E7DBCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2E8952871D3BE35F00E7DBCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E8952891D3BE35F00E7DBCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Pokemon Weakness/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "skydev.Pokemon-Weakness";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2E89528A1D3BE35F00E7DBCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Pokemon Weakness/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "skydev.Pokemon-Weakness";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2E89528C1D3BE35F00E7DBCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Pokemon WeaknessTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "skydev.Pokemon-WeaknessTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pokemon Weakness.app/Pokemon Weakness";
+			};
+			name = Debug;
+		};
+		2E89528D1D3BE35F00E7DBCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Pokemon WeaknessTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "skydev.Pokemon-WeaknessTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pokemon Weakness.app/Pokemon Weakness";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E8952661D3BE35E00E7DBCD /* Build configuration list for PBXProject "Pokemon Weakness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E8952861D3BE35F00E7DBCD /* Debug */,
+				2E8952871D3BE35F00E7DBCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E8952881D3BE35F00E7DBCD /* Build configuration list for PBXNativeTarget "Pokemon Weakness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E8952891D3BE35F00E7DBCD /* Debug */,
+				2E89528A1D3BE35F00E7DBCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2E89528B1D3BE35F00E7DBCD /* Build configuration list for PBXNativeTarget "Pokemon WeaknessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E89528C1D3BE35F00E7DBCD /* Debug */,
+				2E89528D1D3BE35F00E7DBCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E8952631D3BE35E00E7DBCD /* Project object */;
+}
