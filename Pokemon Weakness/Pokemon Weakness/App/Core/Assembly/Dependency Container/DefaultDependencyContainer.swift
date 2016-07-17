@@ -59,7 +59,7 @@ func Register<T where T: AnyObject>(service: T, key: String) -> T {
 }
 
 /**
- Check if an instance is already registered
+ Try to resolve an instance from the container
  
  - parameter key: instance key identifier
  
