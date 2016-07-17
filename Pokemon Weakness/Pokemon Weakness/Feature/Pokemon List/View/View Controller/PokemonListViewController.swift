@@ -12,7 +12,7 @@ protocol PokemonListViewControllerProvider {
     func pokemonListViewController() -> PokemonListViewController
 }
 
-class PokemonListViewController: UIViewController {
+class PokemonListViewController: CollectionBaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
