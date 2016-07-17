@@ -17,6 +17,7 @@
 		2EB395621D3BF83100BDA594 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB395611D3BF83100BDA594 /* Task.swift */; };
 		2EB395651D3BF9AF00BDA594 /* Assembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB395641D3BF9AF00BDA594 /* Assembly.swift */; };
 		2EB395681D3BFAB600BDA594 /* DependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB395671D3BFAB600BDA594 /* DependencyContainer.swift */; };
+		2EB3956A1D3BFB6A00BDA594 /* DefaultDependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB395691D3BFB6A00BDA594 /* DefaultDependencyContainer.swift */; };
 		D0128FE5129B3EAF61AF32FC /* Pods_Pokemon_WeaknessTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C3F93B1B8C746A248FF36FD /* Pods_Pokemon_WeaknessTests.framework */; };
 		E8E29466760E68073664613E /* Pods_Pokemon_Weakness.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6341A1D1B18B004FA4EB199 /* Pods_Pokemon_Weakness.framework */; };
 /* End PBXBuildFile section */
@@ -46,6 +47,7 @@
 		2EB395611D3BF83100BDA594 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		2EB395641D3BF9AF00BDA594 /* Assembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assembly.swift; sourceTree = "<group>"; };
 		2EB395671D3BFAB600BDA594 /* DependencyContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DependencyContainer.swift; sourceTree = "<group>"; };
+		2EB395691D3BFB6A00BDA594 /* DefaultDependencyContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultDependencyContainer.swift; sourceTree = "<group>"; };
 		6473391D288683B6158A31AA /* Pods-Pokemon WeaknessTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pokemon WeaknessTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pokemon WeaknessTests/Pods-Pokemon WeaknessTests.debug.xcconfig"; sourceTree = "<group>"; };
 		75B37CA464CBDB4B18A19BAC /* Pods-Pokemon WeaknessTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pokemon WeaknessTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pokemon WeaknessTests/Pods-Pokemon WeaknessTests.release.xcconfig"; sourceTree = "<group>"; };
 		9C3F93B1B8C746A248FF36FD /* Pods_Pokemon_WeaknessTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pokemon_WeaknessTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -237,6 +239,7 @@
 			isa = PBXGroup;
 			children = (
 				2EB395671D3BFAB600BDA594 /* DependencyContainer.swift */,
+				2EB395691D3BFB6A00BDA594 /* DefaultDependencyContainer.swift */,
 			);
 			path = "Dependency Container";
 			sourceTree = "<group>";
@@ -463,6 +466,7 @@
 				2EB3955B1D3BF7E700BDA594 /* PokemonType.swift in Sources */,
 				2EB3955D1D3BF7E700BDA594 /* PokemonRepository.swift in Sources */,
 				2EB395341D3BE92E00BDA594 /* AppDelegate.swift in Sources */,
+				2EB3956A1D3BFB6A00BDA594 /* DefaultDependencyContainer.swift in Sources */,
 				2EB395651D3BF9AF00BDA594 /* Assembly.swift in Sources */,
 				2EB3955C1D3BF7E700BDA594 /* PokemonDataSource.swift in Sources */,
 				2EB395621D3BF83100BDA594 /* Task.swift in Sources */,
