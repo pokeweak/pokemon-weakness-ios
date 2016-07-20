@@ -25,12 +25,7 @@ class PokemonListCollectionDataSource<T>: CollectionDataSource<PokemonViewModel>
     }
     
     override func cellForRowAtIndexPath<C: UICollectionView>(collection: C, indexPath: NSIndexPath) -> UICollectionViewCell {
-        
         let cell: PokemonItemCell = collection.dequeueReusableCell(forIndexPath: indexPath)
-        cell.applyShadow()
-        cell.applyCornerRadius(
-            PokemonItemCellConfiguration.cornerRadius
-        )
         return cell
     }
     
