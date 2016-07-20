@@ -12,7 +12,8 @@ struct PokemonViewModel {
     
     let name: String
     let number: String
-    let image: UIImage
+    let image: String
+    let smallImage: String
     let color: UIColor
     let weaknesses: [String]
 }
