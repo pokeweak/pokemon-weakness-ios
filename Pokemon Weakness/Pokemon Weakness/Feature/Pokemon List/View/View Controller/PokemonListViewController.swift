@@ -14,6 +14,16 @@ protocol PokemonListViewControllerProvider {
 
 class PokemonListViewController: CollectionBaseViewController {
 
+    @IBOutlet weak var topHeaderView: UIView!
+    @IBOutlet weak var shadowView: UIView!
+    @IBOutlet weak var topHeaderTopSpaceLayoutConstraint: NSLayoutConstraint!
+    
+    @IBOutlet weak var searchBarLeadingSpaceLayoutConstraint: NSLayoutConstraint!
+    @IBOutlet weak var searchBarTrailingLayoutConstraint: NSLayoutConstraint!
+ 
+    @IBOutlet weak var logoImageView: UIImageView!
+    @IBOutlet weak var settingsButton: UIButton!
+    
     private let pokemonListPresenter: PokemonListPresenter
     
     init(pokemonListPresenter: PokemonListPresenter) {
