@@ -11,6 +11,8 @@ import Foundation
 extension Assembly: PokemonDataSourceProvider {
     
     func dataSource() -> PokemonDataSource {
-        return GetPokemonsFromDiskDataSource()
+        return GetPokemonsFromDiskDataSource(
+            pokemonDiskModelParser: getPokemonDiskModelParser()
+        )
     }
 }
