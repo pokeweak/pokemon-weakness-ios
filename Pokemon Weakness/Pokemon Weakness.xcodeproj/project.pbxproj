@@ -13,6 +13,8 @@
 		2E12BFB11D3FCCC500D922CC /* DefaultPokemonRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E12BFB01D3FCCC500D922CC /* DefaultPokemonRepository.swift */; };
 		2E12BFB31D3FCD5700D922CC /* Assembly+DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E12BFB21D3FCD5700D922CC /* Assembly+DataSource.swift */; };
 		2E12BFB61D3FCD9500D922CC /* GetPokemonsFromDiskDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E12BFB51D3FCD9500D922CC /* GetPokemonsFromDiskDataSource.swift */; };
+		2E12BFB91D3FD56600D922CC /* Parseable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E12BFB81D3FD56600D922CC /* Parseable.swift */; };
+		2E12BFBB1D3FD5A800D922CC /* Parseable+Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E12BFBA1D3FD5A800D922CC /* Parseable+Array.swift */; };
 		2E2422221D3D34E000B30580 /* PokemonListViewController+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2422211D3D34E000B30580 /* PokemonListViewController+Animations.swift */; };
 		2E2422251D3D42C800B30580 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2422241D3D42C800B30580 /* Math.swift */; };
 		2E2422281D3D583E00B30580 /* pokemon_list.json in Resources */ = {isa = PBXBuildFile; fileRef = 2E2422271D3D583E00B30580 /* pokemon_list.json */; };
@@ -94,6 +96,8 @@
 		2E12BFB01D3FCCC500D922CC /* DefaultPokemonRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultPokemonRepository.swift; sourceTree = "<group>"; };
 		2E12BFB21D3FCD5700D922CC /* Assembly+DataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Assembly+DataSource.swift"; sourceTree = "<group>"; };
 		2E12BFB51D3FCD9500D922CC /* GetPokemonsFromDiskDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetPokemonsFromDiskDataSource.swift; sourceTree = "<group>"; };
+		2E12BFB81D3FD56600D922CC /* Parseable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parseable.swift; sourceTree = "<group>"; };
+		2E12BFBA1D3FD5A800D922CC /* Parseable+Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Parseable+Array.swift"; sourceTree = "<group>"; };
 		2E2422211D3D34E000B30580 /* PokemonListViewController+Animations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PokemonListViewController+Animations.swift"; sourceTree = "<group>"; };
 		2E2422241D3D42C800B30580 /* Math.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
 		2E2422271D3D583E00B30580 /* pokemon_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pokemon_list.json; sourceTree = "<group>"; };
@@ -206,6 +210,15 @@
 				2E12BFB51D3FCD9500D922CC /* GetPokemonsFromDiskDataSource.swift */,
 			);
 			path = Disk;
+			sourceTree = "<group>";
+		};
+		2E12BFB71D3FD55B00D922CC /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				2E12BFB81D3FD56600D922CC /* Parseable.swift */,
+				2E12BFBA1D3FD5A800D922CC /* Parseable+Array.swift */,
+			);
+			path = Parser;
 			sourceTree = "<group>";
 		};
 		2E2422231D3D42BD00B30580 /* Math */ = {
@@ -386,6 +399,7 @@
 		2EB3955F1D3BF81D00BDA594 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
+				2E12BFB71D3FD55B00D922CC /* Parser */,
 				2EB395601D3BF81D00BDA594 /* Task */,
 				2EB3957B1D3BFFAB00BDA594 /* Window Coordinable */,
 				2EB395B71D3C108F00BDA594 /* Renderer */,
@@ -1013,6 +1027,8 @@
 				2EB395AA1D3C099800BDA594 /* UICollectionView+Reusable.swift in Sources */,
 				2EB395AD1D3C09C400BDA594 /* NSObject+ClassName.swift in Sources */,
 				2EB395961D3C06BE00BDA594 /* CollectionDataSource.swift in Sources */,
+				2E12BFB91D3FD56600D922CC /* Parseable.swift in Sources */,
+				2E12BFBB1D3FD5A800D922CC /* Parseable+Array.swift in Sources */,
 				2EB3955C1D3BF7E700BDA594 /* PokemonDataSource.swift in Sources */,
 				2EB395BF1D3C142F00BDA594 /* PokemonItemCellRenderer.swift in Sources */,
 				2E12BFB61D3FCD9500D922CC /* GetPokemonsFromDiskDataSource.swift in Sources */,
