@@ -32,10 +32,6 @@
                         <size key="footerReferenceSize" width="0.0" height="0.0"/>
                         <inset key="sectionInset" minX="10" minY="165" maxX="10" maxY="10"/>
                     </collectionViewFlowLayout>
-                    <connections>
-                        <outlet property="dataSource" destination="-1" id="hVH-eA-BeS"/>
-                        <outlet property="delegate" destination="-1" id="Tdf-hs-eF1"/>
-                    </connections>
                 </collectionView>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SfT-Pa-sxg" userLabel="Shadow View">
                     <rect key="frame" x="0.0" y="149" width="600" height="1"/>
