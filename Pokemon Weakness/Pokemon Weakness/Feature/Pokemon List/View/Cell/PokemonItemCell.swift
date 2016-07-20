@@ -25,5 +25,6 @@ class PokemonItemCell: UICollectionViewCell, SizableCollectionCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
+        configureUI()
     }
 }

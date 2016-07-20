@@ -7,3 +7,12 @@
 //
 
 import Foundation
+
+extension PokemonItemCell: ConfigurableUI {
+    
+    func configureUI() {
+        applyShadow()
+        topContainerView.applyCornerRadius(4)
+        applyCornerRadius(4)
+    }
+}
