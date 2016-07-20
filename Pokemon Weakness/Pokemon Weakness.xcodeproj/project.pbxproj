@@ -22,7 +22,6 @@
 		2E12BFCC1D3FDB2500D922CC /* PokemonToViewModelMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E12BFCB1D3FDB2500D922CC /* PokemonToViewModelMapper.swift */; };
 		2E12BFCF1D3FDBF900D922CC /* PokemonNumberFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E12BFCE1D3FDBF900D922CC /* PokemonNumberFormatter.swift */; };
 		2E12BFD11D3FDD5300D922CC /* Assembly+Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E12BFD01D3FDD5300D922CC /* Assembly+Mapper.swift */; };
-		2E2422221D3D34E000B30580 /* PokemonListViewController+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2422211D3D34E000B30580 /* PokemonListViewController+Animations.swift */; };
 		2E2422251D3D42C800B30580 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2422241D3D42C800B30580 /* Math.swift */; };
 		2E2422281D3D583E00B30580 /* pokemon_list.json in Resources */ = {isa = PBXBuildFile; fileRef = 2E2422271D3D583E00B30580 /* pokemon_list.json */; };
 		2E2422291D3D584400B30580 /* pokemon_list.json in Resources */ = {isa = PBXBuildFile; fileRef = 2E2422271D3D583E00B30580 /* pokemon_list.json */; };
@@ -1101,7 +1100,6 @@
 				2EB395BC1D3C11E400BDA594 /* PokemonViewModel.swift in Sources */,
 				2EB395A11D3C088D00BDA594 /* BaseViewController+UI.swift in Sources */,
 				2EB395621D3BF83100BDA594 /* Task.swift in Sources */,
-				2E2422221D3D34E000B30580 /* PokemonListViewController+Animations.swift in Sources */,
 				2EB395681D3BFAB600BDA594 /* DependencyContainer.swift in Sources */,
 				2EB395DE1D3C350500BDA594 /* UIColor+AppColors.swift in Sources */,
 				2E2422251D3D42C800B30580 /* Math.swift in Sources */,
