@@ -26,4 +26,8 @@ extension Assembly {
     func getBundle() -> NSBundle {
         return NSBundle.mainBundle()
     }
+    
+    func getNumberFormatter() -> NSNumberFormatter {
+        return NSNumberFormatter()
+    }
 }
