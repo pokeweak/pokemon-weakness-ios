@@ -23,7 +23,7 @@
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="WoN-MN-Vdq">
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" keyboardDismissMode="onDrag" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="WoN-MN-Vdq">
                     <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                     <color key="backgroundColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
                     <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="5" id="4pz-Gn-S8o">
@@ -67,6 +67,9 @@
                                     <searchBar contentMode="redraw" searchBarStyle="minimal" placeholder="Search by name or number" translatesAutoresizingMaskIntoConstraints="NO" id="oG3-rE-XtR">
                                         <rect key="frame" x="38" y="103" width="524" height="44"/>
                                         <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="-1" id="Ib1-Cn-TFF"/>
+                                        </connections>
                                     </searchBar>
                                 </subviews>
                                 <constraints>
