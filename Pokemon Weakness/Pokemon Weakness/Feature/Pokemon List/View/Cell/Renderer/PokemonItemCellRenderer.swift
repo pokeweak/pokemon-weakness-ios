@@ -14,7 +14,7 @@ class PokemonItemCellRenderer: Renderable {
         
         view.setPokemonNumber(data.number)
         view.setPokemonName(data.name)
-        view.setImage(data.image)
+        view.setImage(data.smallImage)
         view.setColor(data.color)
     }
 }

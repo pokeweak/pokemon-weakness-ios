@@ -25,18 +25,16 @@ class PokemonListCollectionDataSource<T>: CollectionDataSource<PokemonViewModel>
     }
     
     override func cellForRowAtIndexPath<C: UICollectionView>(collection: C, indexPath: NSIndexPath) -> UICollectionViewCell {
-        let cell: PokemonItemCell = collection.dequeueReusableCell(forIndexPath: indexPath)
-        return cell
-    }
-    
-    override func collectionView(collectionView: UICollectionView, willDisplayCell cell: UICollectionViewCell, forItemAtIndexPath indexPath: NSIndexPath) {
         
+        let cell: PokemonItemCell = collection.dequeueReusableCell(forIndexPath: indexPath)
         let item = itemAtIndexPath(indexPath)
         
         pokemonItemCellRenderer.render(
             item,
-            into: cell as! PokemonItemCellView
+            into: cell as PokemonItemCellView
         )
+        
+        return cell
     }
     
     override func collection<T: UICollectionView>(collection: T, sizeForRowAtIndexPath: NSIndexPath) -> CGSize {

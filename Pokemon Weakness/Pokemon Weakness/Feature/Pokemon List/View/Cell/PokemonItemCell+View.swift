@@ -18,8 +18,8 @@ extension PokemonItemCell: PokemonItemCellView {
         pokemonNumberLabel.text = number
     }
     
-    func setImage(image: UIImage) {
-        pokemonImageView.image = image
+    func setImage(image: String) {
+        pokemonImageView.setImage(image)
     }
     
     func setColor(color: UIColor) {

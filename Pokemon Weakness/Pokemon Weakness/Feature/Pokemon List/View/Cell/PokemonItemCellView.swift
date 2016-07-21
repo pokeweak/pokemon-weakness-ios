@@ -12,6 +12,6 @@ protocol PokemonItemCellView {
     
     func setPokemonName(name: String)
     func setPokemonNumber(number: String)
-    func setImage(image: UIImage)
+    func setImage(image: String)
     func setColor(color: UIColor)
 }
