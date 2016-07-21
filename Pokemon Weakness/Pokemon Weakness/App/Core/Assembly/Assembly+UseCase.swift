@@ -15,4 +15,10 @@ extension Assembly {
             pokemonRepository: getPokemonRepository()
         )
     }
+    
+    func getSearchPokemonsUseCase() -> SearchPokemonsUseCase {
+        return SearchPokemonsUseCase(
+            getPokemonsUseCase: getGetPokemonsUseCase()
+        )
+    }
 }

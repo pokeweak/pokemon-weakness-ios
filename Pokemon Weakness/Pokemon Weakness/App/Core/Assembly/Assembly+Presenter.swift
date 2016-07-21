@@ -13,6 +13,7 @@ extension Assembly {
     func getPokemonListPresenter() -> PokemonListPresenter {
         return PokemonListPresenter(
             getPokemonsUseCase: getGetPokemonsUseCase(),
+            searchPokemonsUseCase: getSearchPokemonsUseCase(),
             pokemonToViewModelMapper: getPokemonToViewModelMapper(),
             pokemonListCollectionDataSource: getPokemonListCollectionDataSource()
         )
