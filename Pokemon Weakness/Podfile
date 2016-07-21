@@ -5,7 +5,8 @@ target 'Pokemon Weakness' do
   use_frameworks!
 
   pod 'PromiseKit/CorePromise', '~> 3.2'        # A delightful Promises implementation for iOS and OS X
-
+  pod 'SDWebImage', '~> 3.8.1'                  # Asynchronous image downloader with cache support
+  
   target 'Pokemon WeaknessTests' do
     inherit! :search_paths
 
