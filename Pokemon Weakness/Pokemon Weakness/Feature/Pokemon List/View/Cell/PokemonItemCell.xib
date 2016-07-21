@@ -16,7 +16,7 @@
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pga-lH-nP8" userLabel="Top Container">
                         <rect key="frame" x="0.0" y="0.0" width="112" height="100"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="test" translatesAutoresizingMaskIntoConstraints="NO" id="LBQ-jF-jLk">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1.png" translatesAutoresizingMaskIntoConstraints="NO" id="LBQ-jF-jLk">
                                 <rect key="frame" x="25" y="17" width="62" height="57"/>
                             </imageView>
                         </subviews>
@@ -24,13 +24,6 @@
                         <constraints>
                             <constraint firstAttribute="height" constant="100" id="LEq-pR-Epm"/>
                         </constraints>
-                        <userDefinedRuntimeAttributes>
-                            <userDefinedRuntimeAttribute type="boolean" keyPath="enableTopLeftCornerRadius" value="YES"/>
-                            <userDefinedRuntimeAttribute type="boolean" keyPath="enableTopRightCornerRadius" value="YES"/>
-                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                <integer key="value" value="4"/>
-                            </userDefinedRuntimeAttribute>
-                        </userDefinedRuntimeAttributes>
                     </view>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xO7-l4-0To">
                         <rect key="frame" x="0.0" y="90" width="112" height="50"/>
@@ -85,6 +78,6 @@
         </collectionViewCell>
     </objects>
     <resources>
-        <image name="test" width="200" height="186"/>
+        <image name="1.png" width="260" height="240"/>
     </resources>
 </document>
