@@ -24,7 +24,7 @@ class PokemonListViewController: CollectionBaseViewController {
     @IBOutlet weak var logoImageView: UIImageView!
     @IBOutlet weak var settingsButton: UIButton!
     
-    private let pokemonListPresenter: PokemonListPresenter
+    let pokemonListPresenter: PokemonListPresenter
     
     init(pokemonListPresenter: PokemonListPresenter) {
         self.pokemonListPresenter = pokemonListPresenter

@@ -14,37 +14,61 @@ class PokemonListPresenter {
     weak var view: PokemonListView?
     
     private let getPokemonsUseCase: GetPokemonsUseCase
+    private let searchPokemonsUseCase: SearchPokemonsUseCase
     private let pokemonToViewModelMapper: PokemonToViewModelMapper
     private let pokemonListCollectionDataSource: PokemonListCollectionDataSource<PokemonViewModel>
     
     init(getPokemonsUseCase: GetPokemonsUseCase,
+         searchPokemonsUseCase: SearchPokemonsUseCase,
          pokemonToViewModelMapper: PokemonToViewModelMapper,
          pokemonListCollectionDataSource: PokemonListCollectionDataSource<PokemonViewModel>)
     {
         self.getPokemonsUseCase = getPokemonsUseCase
+        self.searchPokemonsUseCase = searchPokemonsUseCase
         self.pokemonToViewModelMapper = pokemonToViewModelMapper
         self.pokemonListCollectionDataSource = pokemonListCollectionDataSource
     }
     
     func viewDidLoad() {
- 
-        firstly { _ -> Promise<[Pokemon]> in
+        
+        firstly {
             
             return getPokemonsUseCase.getPokemons()
-        
+            
         }.then { pokemons -> [PokemonViewModel] in
-
+                
             return self.pokemonToViewModelMapper.mapObjects(pokemons)
             
         }.then { pokemonViewModels -> Void in
-        
-            self.pokemonListCollectionDataSource.items = pokemonViewModels
             
-            self.view?.setDataSource(
-                self.pokemonListCollectionDataSource
-            )
-            
-            self.view?.reload(true)
+            self.updatePokemonList(pokemonViewModels)
         }
+    }
+    
+    func search(query: String?) {
+        
+        firstly {
+            
+            return self.searchPokemonsUseCase.search(query)
+            
+        }.then { pokemons -> [PokemonViewModel] in
+                
+            return self.pokemonToViewModelMapper.mapObjects(pokemons)
+                
+        }.then { pokemonViewModels -> Void in
+                
+            self.updatePokemonList(pokemonViewModels)
+        }
+    }
+    
+    private func updatePokemonList(pokemons: [PokemonViewModel]) {
+        
+        self.view?.setDataSource(
+            self.pokemonListCollectionDataSource
+        )
+        
+        self.pokemonListCollectionDataSource.items = pokemons
+        
+        self.view?.reload(true)
     }
 }
