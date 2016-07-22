@@ -12,7 +12,6 @@
                 <outlet property="searchBarLeadingSpaceLayoutConstraint" destination="Brf-UN-iKd" id="Lc3-U1-dqr"/>
                 <outlet property="searchBarTrailingLayoutConstraint" destination="gee-hs-BWC" id="pMQ-nJ-F2c"/>
                 <outlet property="settingsButton" destination="YHu-hC-80L" id="93D-UI-mFc"/>
-                <outlet property="shadowView" destination="SfT-Pa-sxg" id="xHa-xH-Foc"/>
                 <outlet property="topHeaderTopSpaceLayoutConstraint" destination="2x3-8P-TiG" id="fON-77-I0D"/>
                 <outlet property="topHeaderView" destination="iSh-gB-312" id="mjx-yd-RTE"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
@@ -33,13 +32,6 @@
                         <inset key="sectionInset" minX="10" minY="165" maxX="10" maxY="10"/>
                     </collectionViewFlowLayout>
                 </collectionView>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SfT-Pa-sxg" userLabel="Shadow View">
-                    <rect key="frame" x="0.0" y="149" width="600" height="1"/>
-                    <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="1" id="u4m-b7-HOF"/>
-                    </constraints>
-                </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iSh-gB-312">
                     <rect key="frame" x="0.0" y="0.0" width="600" height="150"/>
                     <subviews>
@@ -97,18 +89,15 @@
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstAttribute="trailing" secondItem="SfT-Pa-sxg" secondAttribute="trailing" id="0lP-Fu-KvA"/>
                 <constraint firstItem="iSh-gB-312" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="2x3-8P-TiG"/>
-                <constraint firstItem="SfT-Pa-sxg" firstAttribute="top" secondItem="iSh-gB-312" secondAttribute="bottom" constant="-1" id="AAp-yl-hBe"/>
                 <constraint firstAttribute="trailing" secondItem="WoN-MN-Vdq" secondAttribute="trailing" id="CNl-5w-ghG"/>
                 <constraint firstItem="WoN-MN-Vdq" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="MKk-l4-aLM"/>
                 <constraint firstItem="iSh-gB-312" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Ycx-Lf-FwS"/>
                 <constraint firstAttribute="trailing" secondItem="iSh-gB-312" secondAttribute="trailing" id="iYa-Te-4lx"/>
                 <constraint firstItem="WoN-MN-Vdq" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="ieO-R3-ghp"/>
                 <constraint firstAttribute="bottom" secondItem="WoN-MN-Vdq" secondAttribute="bottom" id="wy9-62-Q7b"/>
-                <constraint firstItem="SfT-Pa-sxg" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="zDm-wg-JWM"/>
             </constraints>
-            <point key="canvasLocation" x="430" y="213"/>
+            <point key="canvasLocation" x="474" y="198"/>
         </view>
     </objects>
     <resources>
