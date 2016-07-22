@@ -12,5 +12,5 @@ struct Pokemon {
     
     let name: String
     let number: Int
-    let type: PokemonType
+    let color: Int
 }
