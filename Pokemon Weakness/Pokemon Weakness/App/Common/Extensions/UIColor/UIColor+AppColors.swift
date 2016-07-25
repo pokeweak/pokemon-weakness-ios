@@ -11,6 +11,6 @@ import UIKit
 extension UIColor {
     
     public class func catskillWhite() -> UIColor {
-        return UIColor(hex: 0xF5F5F6)
+        return UIColor(hex: 0xEDF3F7)
     }
 }
