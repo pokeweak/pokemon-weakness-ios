@@ -15,5 +15,5 @@ struct PokemonViewModel {
     let image: String
     let smallImage: String
     let color: UIColor
-    let weaknesses: [String]
+    let weaknesses: [WeaknessViewModel]
 }

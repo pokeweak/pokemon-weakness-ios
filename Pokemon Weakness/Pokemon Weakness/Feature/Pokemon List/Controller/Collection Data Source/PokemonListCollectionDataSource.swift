@@ -8,15 +8,17 @@
 
 import UIKit
 
-private struct PokemonItemCellConfiguration {
-    static let cornerRadius: Float = 4
+protocol PokemonListCollectionDataSourceDelegate: class {
+    func didSelect(pokemon: PokemonViewModel)
 }
 
 class PokemonListCollectionDataSource<T>: CollectionDataSource<PokemonViewModel> {
     
-    let screen: UIScreen
-    let pokemonItemCellRenderer: PokemonItemCellRenderer
-
+    private let screen: UIScreen
+    private let pokemonItemCellRenderer: PokemonItemCellRenderer
+    
+    weak var delegate: PokemonListCollectionDataSourceDelegate?
+    
     init(screen: UIScreen,
          pokemonItemCellRenderer: PokemonItemCellRenderer)
     {
@@ -51,5 +53,20 @@ class PokemonListCollectionDataSource<T>: CollectionDataSource<PokemonViewModel>
             width: itemWidth - CGFloat(margin),
             height: PokemonItemCell.size.height
         )
+    }
+    
+    func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+        
+        let item = itemAtIndexPath(indexPath)
+        
+        delegate?.didSelect(item)
+    }
+    
+    func collectionView(collectionView: UICollectionView, didHighlightItemAtIndexPath indexPath: NSIndexPath) {
+        highlightItem(collectionView, indexPath: indexPath)
+    }
+    
+    func collectionView(collectionView: UICollectionView, didUnhighlightItemAtIndexPath indexPath: NSIndexPath) {
+        unHighlightItem(collectionView, indexPath: indexPath)
     }
 }

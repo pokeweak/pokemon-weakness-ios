@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <objects>
@@ -16,13 +15,19 @@
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pga-lH-nP8" userLabel="Top Container">
                         <rect key="frame" x="0.0" y="0.0" width="112" height="100"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1.png" translatesAutoresizingMaskIntoConstraints="NO" id="LBQ-jF-jLk">
-                                <rect key="frame" x="25" y="17" width="62" height="57"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1.png" translatesAutoresizingMaskIntoConstraints="NO" id="LBQ-jF-jLk">
+                                <rect key="frame" x="25" y="16.5" width="62" height="57"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="57" id="BB4-hp-nGa"/>
+                                    <constraint firstAttribute="width" constant="62" id="YUD-hc-Vaz"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.12549019610000001" green="0.53333333329999999" blue="0.76078431369999999" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="LBQ-jF-jLk" firstAttribute="centerY" secondItem="pga-lH-nP8" secondAttribute="centerY" constant="-5" id="Jpd-KW-AA6"/>
                             <constraint firstAttribute="height" constant="100" id="LEq-pR-Epm"/>
+                            <constraint firstItem="LBQ-jF-jLk" firstAttribute="centerX" secondItem="pga-lH-nP8" secondAttribute="centerX" id="W51-mJ-zFh"/>
                         </constraints>
                     </view>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xO7-l4-0To">

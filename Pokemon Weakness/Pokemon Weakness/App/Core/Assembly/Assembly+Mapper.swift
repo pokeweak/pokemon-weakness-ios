@@ -11,9 +11,14 @@ import Foundation
 extension Assembly {
     
     func getPokemonToViewModelMapper() -> PokemonToViewModelMapper {
-        return PokemonToViewModelMapper(pokemonNumberFormatter:
-            getPokemonNumberFormatter()
+        return PokemonToViewModelMapper(
+            pokemonNumberFormatter: getPokemonNumberFormatter(),
+            weaknessToViewModelMapper: getWeaknessToViewModelMapper()
         )
+    }
+    
+    func getWeaknessToViewModelMapper() -> WeaknessToViewModelMapper {
+        return WeaknessToViewModelMapper()
     }
     
     func getPokemonNumberFormatter() -> PokemonNumberFormatter {

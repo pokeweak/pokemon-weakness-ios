@@ -11,6 +11,6 @@ import Foundation
 extension BaseViewController: ConfigurableUI {
     
     func configureUI() {
-        
+        view.backgroundColor = .catskillWhite()
     }
 }

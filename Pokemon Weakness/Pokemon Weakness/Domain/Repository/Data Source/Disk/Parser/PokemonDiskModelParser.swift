@@ -12,6 +12,7 @@ private struct JSONKeys {
     static let name = "name"
     static let number = "number"
     static let color = "color"
+    static let weaknesses = "weaknesses"
 }
 
 struct PokemonDiskModelParser: Parseable {
@@ -21,11 +22,13 @@ struct PokemonDiskModelParser: Parseable {
         let name = element[JSONKeys.name] as! String
         let number = element[JSONKeys.number] as! Int
         let color = element[JSONKeys.color] as! Int
+        let weaknesses = element[JSONKeys.weaknesses] as! [String]
         
         return Pokemon(
             name: name,
             number: number,
-            color: color
+            color: color,
+            weaknesses: weaknesses
         )
     }
 }

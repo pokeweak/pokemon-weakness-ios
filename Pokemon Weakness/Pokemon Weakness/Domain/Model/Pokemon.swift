@@ -13,4 +13,5 @@ struct Pokemon {
     let name: String
     let number: Int
     let color: Int
+    let weaknesses: [String]
 }

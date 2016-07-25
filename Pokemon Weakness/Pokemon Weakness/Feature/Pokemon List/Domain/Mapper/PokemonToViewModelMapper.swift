@@ -12,9 +12,13 @@ import UIKit
 struct PokemonToViewModelMapper: Mappable {
     
     private let pokemonNumberFormatter: PokemonNumberFormatter
+    private let weaknessToViewModelMapper: WeaknessToViewModelMapper
     
-    init(pokemonNumberFormatter: PokemonNumberFormatter) {
+    init(pokemonNumberFormatter: PokemonNumberFormatter,
+         weaknessToViewModelMapper: WeaknessToViewModelMapper)
+    {
         self.pokemonNumberFormatter = pokemonNumberFormatter
+        self.weaknessToViewModelMapper = weaknessToViewModelMapper
     }
     
     func mapObject(from: Pokemon) -> PokemonViewModel {
@@ -24,14 +28,17 @@ struct PokemonToViewModelMapper: Mappable {
         let image = String(from.number)
         let smallImage = image + "_small"
         let color = UIColor(hex: from.color)
- 
+        let weaknesses = weaknessToViewModelMapper.mapObjects(
+            from.weaknesses
+        )
+        
         return PokemonViewModel(
             name: name,
             number: number,
             image: image,
             smallImage: smallImage,
             color: color,
-            weaknesses: []
+            weaknesses: weaknesses
         )
     }
 }

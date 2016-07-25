@@ -24,9 +24,13 @@ class PokemonListViewController: CollectionBaseViewController {
     @IBOutlet weak var settingsButton: UIButton!
     
     let pokemonListPresenter: PokemonListPresenter
+    let pokemonDetailNavigationRouterProvider: PokemonDetailNavigationRouterProvider
     
-    init(pokemonListPresenter: PokemonListPresenter) {
+    init(pokemonListPresenter: PokemonListPresenter,
+         pokemonDetailNavigationRouterProvider: PokemonDetailNavigationRouterProvider)
+    {
         self.pokemonListPresenter = pokemonListPresenter
+        self.pokemonDetailNavigationRouterProvider = pokemonDetailNavigationRouterProvider
         
         super.init(
             nibName: PokemonListViewController.nibName,

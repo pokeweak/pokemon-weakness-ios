@@ -13,7 +13,7 @@ extension CollectionBaseViewController: CollectionUI {
     override func configureUI() {
         super.configureUI()
         
-        collectionView?.backgroundColor = .catskillWhite()
+        collectionView?.backgroundColor = .clearColor()
     }
     
     func reload(animated: Bool) {

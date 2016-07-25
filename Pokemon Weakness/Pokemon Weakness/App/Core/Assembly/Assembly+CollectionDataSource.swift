@@ -16,4 +16,11 @@ extension Assembly {
             pokemonItemCellRenderer: getPokemonItemCellRenderer()
         )
     }
+    
+    func getWeaknessListCollectionDataSource() -> WeaknessListCollectionDataSource<WeaknessViewModel> {
+        return WeaknessListCollectionDataSource(
+            screen: getMainScreen(),
+            weaknessItemCellRenderer: getWeaknessItemCellRenderer()
+        )
+    }
 }

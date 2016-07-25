@@ -18,4 +18,10 @@ extension Assembly {
             pokemonListCollectionDataSource: getPokemonListCollectionDataSource()
         )
     }
+    
+    func getPokemonDetailPresenter() -> PokemonDetailPresenter {
+        return PokemonDetailPresenter(
+            weaknessListCollectionDataSource: getWeaknessListCollectionDataSource()
+        )
+    }
 }
