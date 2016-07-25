@@ -8,7 +8,7 @@
 
 import UIKit
 
-class WeaknessItemCell: UITableViewCell {
+class WeaknessItemCell: UICollectionViewCell {
 
     @IBOutlet weak var weaknessLabel: UILabel!
     
