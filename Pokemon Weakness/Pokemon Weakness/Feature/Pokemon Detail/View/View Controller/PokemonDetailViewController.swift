@@ -22,6 +22,9 @@ class PokemonDetailViewController: CollectionBaseViewController {
     @IBOutlet weak var pokemonNameLabel: UILabel!
     @IBOutlet weak var pokemonWeaknesessLabel: UILabel!
 
+    @IBOutlet weak var pokemonBackgroundViewBottomLayoutConstraint: NSLayoutConstraint!
+    @IBOutlet weak var weaknessesListHeightLayoutConstraint: NSLayoutConstraint!
+    
     private let pokemon: PokemonViewModel
     private let pokemonDetailPresenter: PokemonDetailPresenter
     
