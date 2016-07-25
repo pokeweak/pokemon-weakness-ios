@@ -6,7 +6,7 @@
 //  Copyright © 2016 Skydev. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 /**
  *  Define navigation contract between two views

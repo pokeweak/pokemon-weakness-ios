@@ -10,4 +10,7 @@ import Foundation
 
 extension PokemonListViewController: PokemonListView {
     
+    func showDetail(pokemon: PokemonViewModel) {
+        pokemonDetailNavigationRouterProvider.pokemonDetailNavigation(pokemon).navigate(self)
+    }
 }
