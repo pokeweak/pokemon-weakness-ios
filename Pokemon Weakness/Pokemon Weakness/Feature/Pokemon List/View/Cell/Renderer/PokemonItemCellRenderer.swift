@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct PokemonItemCellRenderer: Renderable {
+class PokemonItemCellRenderer: Renderable {
     
     func render(data: PokemonViewModel, into view: PokemonItemCellView) {
         
