@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct WeaknessItemCellRenderer: Renderable {
+class WeaknessItemCellRenderer: Renderable {
     
     func render(data: WeaknessViewModel, into view: WeaknessItemCellView) {
         view.setWeakness(data.weakness)
