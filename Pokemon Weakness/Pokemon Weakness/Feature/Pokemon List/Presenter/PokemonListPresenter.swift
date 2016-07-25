@@ -27,6 +27,7 @@ class PokemonListPresenter {
         self.searchPokemonsUseCase = searchPokemonsUseCase
         self.pokemonToViewModelMapper = pokemonToViewModelMapper
         self.pokemonListCollectionDataSource = pokemonListCollectionDataSource
+        self.pokemonListCollectionDataSource.delegate = self
     }
     
     func viewDidLoad() {
@@ -70,5 +71,12 @@ class PokemonListPresenter {
         self.pokemonListCollectionDataSource.items = pokemons
         
         self.view?.reload(true)
+    }
+}
+
+extension PokemonListPresenter: PokemonListCollectionDataSourceDelegate {
+    
+    func didSelect(pokemon: PokemonViewModel) {
+        view?.showDetail(pokemon)
     }
 }
