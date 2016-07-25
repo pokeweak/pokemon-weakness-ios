@@ -8,10 +8,6 @@
 
 import UIKit
 
-private struct PokemonItemCellConfiguration {
-    static let cornerRadius: Float = 4
-}
-
 protocol PokemonListCollectionDataSourceDelegate: class {
     func didSelect(pokemon: PokemonViewModel)
 }
