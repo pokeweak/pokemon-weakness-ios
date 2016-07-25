@@ -10,7 +10,10 @@ import UIKit
 
 class WeaknessItemCell: UITableViewCell {
 
+    @IBOutlet weak var weaknessLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
+        configureUI()
     }
 }
