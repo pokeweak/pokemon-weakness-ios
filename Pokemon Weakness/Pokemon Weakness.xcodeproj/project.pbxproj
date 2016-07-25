@@ -342,6 +342,7 @@
 		2E3B3A571D46597B004455AD /* PokemonDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3B3A561D46597B004455AD /* PokemonDetailView.swift */; };
 		2E3B3A5A1D4659CA004455AD /* PokemonDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3B3A591D4659CA004455AD /* PokemonDetailPresenter.swift */; };
 		2E3B3A5E1D467304004455AD /* WeaknessToViewModelMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3B3A5D1D467304004455AD /* WeaknessToViewModelMapper.swift */; };
+		2E3B3A601D468D88004455AD /* PokemonListCollectionDataSource+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3B3A5F1D468D88004455AD /* PokemonListCollectionDataSource+Animations.swift */; };
 		2E7188471D41140A00B56A49 /* PokemonListViewController+SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7188461D41140A00B56A49 /* PokemonListViewController+SearchBar.swift */; };
 		2E71884F1D411CE900B56A49 /* SearchPokemonsUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E71884E1D411CE900B56A49 /* SearchPokemonsUseCase.swift */; };
 		2E7188521D4125D600B56A49 /* UIImageView+ImageLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7188511D4125D600B56A49 /* UIImageView+ImageLoading.swift */; };
@@ -753,6 +754,7 @@
 		2E3B3A561D46597B004455AD /* PokemonDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonDetailView.swift; sourceTree = "<group>"; };
 		2E3B3A591D4659CA004455AD /* PokemonDetailPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonDetailPresenter.swift; sourceTree = "<group>"; };
 		2E3B3A5D1D467304004455AD /* WeaknessToViewModelMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeaknessToViewModelMapper.swift; sourceTree = "<group>"; };
+		2E3B3A5F1D468D88004455AD /* PokemonListCollectionDataSource+Animations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PokemonListCollectionDataSource+Animations.swift"; sourceTree = "<group>"; };
 		2E7188461D41140A00B56A49 /* PokemonListViewController+SearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PokemonListViewController+SearchBar.swift"; sourceTree = "<group>"; };
 		2E71884E1D411CE900B56A49 /* SearchPokemonsUseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchPokemonsUseCase.swift; sourceTree = "<group>"; };
 		2E7188511D4125D600B56A49 /* UIImageView+ImageLoading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+ImageLoading.swift"; sourceTree = "<group>"; };
@@ -1835,6 +1837,7 @@
 			isa = PBXGroup;
 			children = (
 				2EB395C21D3C16E000BDA594 /* PokemonListCollectionDataSource.swift */,
+				2E3B3A5F1D468D88004455AD /* PokemonListCollectionDataSource+Animations.swift */,
 			);
 			path = "Collection Data Source";
 			sourceTree = "<group>";
@@ -2509,6 +2512,7 @@
 				2EB395901D3C064000BDA594 /* DataSourceUI.swift in Sources */,
 				2EB395B61D3C0DF800BDA594 /* PokemonItemCell+View.swift in Sources */,
 				2E24222D1D3D59CA00B30580 /* JSONLoader.swift in Sources */,
+				2E3B3A601D468D88004455AD /* PokemonListCollectionDataSource+Animations.swift in Sources */,
 				2E12BFAB1D3FCBF700D922CC /* GetPokemonsUseCase.swift in Sources */,
 				2EB3955D1D3BF7E700BDA594 /* PokemonRepository.swift in Sources */,
 				2EB395C51D3C1A8200BDA594 /* PokemonListView.swift in Sources */,
@@ -2690,11 +2694,14 @@
 			baseConfigurationReference = A658B165822E1C0D253C224A /* Pods-Pokemon Weakness.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "$(SRCROOT)/Pokemon Weakness/Resources/Project/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "skydev.Pokemon-Weakness";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -2703,11 +2710,14 @@
 			baseConfigurationReference = 9FDC292C8E31FCF78DBB2790 /* Pods-Pokemon Weakness.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "$(SRCROOT)/Pokemon Weakness/Resources/Project/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "skydev.Pokemon-Weakness";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

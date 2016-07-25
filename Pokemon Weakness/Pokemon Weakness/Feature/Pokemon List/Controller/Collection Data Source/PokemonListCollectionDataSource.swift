@@ -61,4 +61,12 @@ class PokemonListCollectionDataSource<T>: CollectionDataSource<PokemonViewModel>
         
         delegate?.didSelect(item)
     }
+    
+    func collectionView(collectionView: UICollectionView, didHighlightItemAtIndexPath indexPath: NSIndexPath) {
+        highlightItem(collectionView, indexPath: indexPath)
+    }
+    
+    func collectionView(collectionView: UICollectionView, didUnhighlightItemAtIndexPath indexPath: NSIndexPath) {
+        unHighlightItem(collectionView, indexPath: indexPath)
+    }
 }
