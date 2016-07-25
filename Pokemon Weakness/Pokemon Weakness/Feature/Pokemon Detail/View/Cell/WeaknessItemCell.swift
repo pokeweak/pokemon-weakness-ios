@@ -8,8 +8,15 @@
 
 import UIKit
 
-class WeaknessItemCell: UICollectionViewCell {
+class WeaknessItemCell: UICollectionViewCell, SizableCollectionCell {
 
+    static var size: CGSize {
+        return CGSize(
+            width: 120,
+            height: 30
+        )
+    }
+    
     @IBOutlet weak var weaknessLabel: UILabel!
     
     override func awakeFromNib() {
