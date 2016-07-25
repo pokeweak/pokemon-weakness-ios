@@ -12,7 +12,7 @@ protocol PokemonDetailViewControllerProvider {
     func pokemonDetailViewController(pokemon: PokemonViewModel) -> PokemonDetailViewController
 }
 
-class PokemonDetailViewController: BaseViewController {
+class PokemonDetailViewController: CollectionBaseViewController {
 
     @IBOutlet weak var pokemonImageView: UIImageView!
     
@@ -21,15 +21,29 @@ class PokemonDetailViewController: BaseViewController {
     @IBOutlet weak var pokemonNumberLabel: UILabel!
     @IBOutlet weak var pokemonNameLabel: UILabel!
     @IBOutlet weak var pokemonWeaknesessLabel: UILabel!
+
+    private let pokemon: PokemonViewModel
+    private let pokemonDetailPresenter: PokemonDetailPresenter
     
-    let pokemon: PokemonViewModel
-    
-    init(pokemon: PokemonViewModel) {
+    init(pokemon: PokemonViewModel,
+         pokemonDetailPresenter: PokemonDetailPresenter)
+    {
         self.pokemon = pokemon
+        self.pokemonDetailPresenter = pokemonDetailPresenter
         
         super.init(
             nibName: PokemonDetailViewController.nibName,
             bundle: nil
+        )
+        
+        self.pokemonDetailPresenter.view = self
+    }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        pokemonDetailPresenter.viewDidLoad(
+            with: pokemon
         )
     }
     
