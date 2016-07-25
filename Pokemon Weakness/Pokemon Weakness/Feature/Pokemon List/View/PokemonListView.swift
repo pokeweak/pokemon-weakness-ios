@@ -10,4 +10,5 @@ import Foundation
 
 protocol PokemonListView: class, CollectionDataSourceUI, CollectionUI {
     
+    func showDetail(pokemon: PokemonViewModel)
 }
