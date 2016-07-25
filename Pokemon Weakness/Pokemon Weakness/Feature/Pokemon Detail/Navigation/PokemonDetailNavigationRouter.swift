@@ -36,6 +36,14 @@ struct PokemonDetailNavigationRouter: NavigationRouter {
             gestureDismissal: true
         )
         
+        let dialogContainerAppearance = PopupDialogContainerView.appearance()
+        dialogContainerAppearance.shadowEnabled = true
+        dialogContainerAppearance.shadowColor = .blackColor()
+        dialogContainerAppearance.cornerRadius = 10
+        
+        let overlayAppearance = PopupDialogOverlayView.appearance()
+        overlayAppearance.blurEnabled = false
+        
         from.present(popup)
     }
 }
