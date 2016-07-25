@@ -22,7 +22,8 @@ extension Assembly: PokemonDetailViewControllerProvider {
     
     func pokemonDetailViewController(pokemon: PokemonViewModel) -> PokemonDetailViewController {
         return PokemonDetailViewController(
-            pokemon: pokemon
+            pokemon: pokemon,
+            pokemonDetailPresenter: getPokemonDetailPresenter()
         )
     }
 }

@@ -13,4 +13,8 @@ extension Assembly {
     func getPokemonItemCellRenderer() -> PokemonItemCellRenderer {
         return PokemonItemCellRenderer()
     }
+    
+    func getWeaknessItemCellRenderer() -> WeaknessItemCellRenderer {
+        return WeaknessItemCellRenderer()
+    }
 }
