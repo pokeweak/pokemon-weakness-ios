@@ -7,6 +7,7 @@ target 'Pokemon Weakness' do
   pod 'PromiseKit/CorePromise', '~> 3.2'        # A delightful Promises implementation for iOS and OS X
   pod 'SDWebImage', '~> 3.8.1'                  # Asynchronous image downloader with cache support
   pod 'PopupDialog', '~> 0.2.2'					# A simple custom popup dialog view controller
+  pod 'DZNEmptyDataSet', '~> 1.8.1'				# A drop-in UITableView/UICollectionView superclass category for showing empty states
 
   target 'Pokemon WeaknessTests' do
     inherit! :search_paths
