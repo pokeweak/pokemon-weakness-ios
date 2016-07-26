@@ -32,10 +32,8 @@ struct SearchPokemonsUseCase {
             let filteredPokemons = pokemons.filter { element in
                 return element.name.lowercaseString.containsString(query.lowercaseString)
             }
-            
-            let thereArePokemons = filteredPokemons.count > 0
-            
-            return thereArePokemons ? filteredPokemons : pokemons
+ 
+            return filteredPokemons
         }
     }
 }
