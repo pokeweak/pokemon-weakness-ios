@@ -11,4 +11,6 @@ import UIKit
 class CollectionBaseViewController: BaseViewController {
 
     @IBOutlet var collectionView: UICollectionView?
+    
+    var emptyState = DefaultEmptyState()
 }

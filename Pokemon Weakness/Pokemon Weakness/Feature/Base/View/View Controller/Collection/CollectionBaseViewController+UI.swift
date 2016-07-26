@@ -14,6 +14,8 @@ extension CollectionBaseViewController: CollectionUI {
         super.configureUI()
         
         collectionView?.backgroundColor = .clearColor()
+        
+        configureEmptyState()
     }
     
     func reload(animated: Bool) {
