@@ -21,4 +21,8 @@ extension UIColor {
     public class func pickledBluewood() -> UIColor {
         return UIColor(hex: 0x2A3C4B)
     }
+    
+    public class func softGray() -> UIColor {
+        return UIColor(hex: 0xA6B0B6)
+    }
 }

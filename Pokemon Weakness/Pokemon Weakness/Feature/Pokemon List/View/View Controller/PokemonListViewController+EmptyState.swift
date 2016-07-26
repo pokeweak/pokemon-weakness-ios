@@ -13,8 +13,10 @@ extension PokemonListViewController {
     override func configureEmptyState() {
         super.configureEmptyState()
         
-        emptyState.title = NSAttributedString(
-            string: Translate("pokemon_list_empty_state.title")
+        emptyState.title = NSAttributedString.make(
+            Translate("pokemon_list_empty_state.title"),
+            font: .ultraSemibold(),
+            color: .softGray()
         )
         emptyState.image = UIImage(
             named: "pokemon_not_found_empty_state"
