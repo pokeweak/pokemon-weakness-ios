@@ -17,4 +17,16 @@ extension PokemonListViewController: UISearchBarDelegate {
     func searchBarSearchButtonClicked(searchBar: UISearchBar) {
         searchBar.endEditing(true)
     }
+    
+    func searchBarTextDidBeginEditing(searchBar: UISearchBar) {
+        searchBar.setShowsCancelButton(true, animated: true)
+    }
+    
+    func searchBarCancelButtonClicked(searchBar: UISearchBar) {
+        pokemonListPresenter.cancelSearch()
+        
+        searchBar.text = nil
+        searchBar.setShowsCancelButton(false, animated: true)
+        searchBar.resignFirstResponder()
+    }
 }
