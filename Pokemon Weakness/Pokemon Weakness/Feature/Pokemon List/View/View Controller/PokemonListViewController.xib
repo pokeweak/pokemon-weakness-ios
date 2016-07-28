@@ -7,6 +7,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PokemonListViewController" customModule="Pokemon_Weakness" customModuleProvider="target">
             <connections>
                 <outlet property="collectionView" destination="WoN-MN-Vdq" id="azU-gu-9YF"/>
+                <outlet property="searchBar" destination="GEj-Gz-2hG" id="PMa-Tu-FLl"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
