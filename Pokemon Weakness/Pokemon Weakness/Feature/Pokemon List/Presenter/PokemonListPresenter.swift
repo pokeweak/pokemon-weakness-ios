@@ -74,6 +74,8 @@ class PokemonListPresenter {
     }
 }
 
+// MARK: - PokemonListCollectionDataSourceDelegate
+
 extension PokemonListPresenter: PokemonListCollectionDataSourceDelegate {
     
     func didSelect(pokemon: PokemonViewModel) {
