@@ -59,14 +59,22 @@ class PokemonListCollectionDataSource<T>: CollectionDataSource<PokemonViewModel>
         
         let item = itemAtIndexPath(indexPath)
         
+        UIView.animateWithDuration(0.3, animations: { 
+            self.highlightItem(collectionView, indexPath: indexPath)
+        }) { _ in
+            self.unHighlightItem(collectionView, indexPath: indexPath)
+        }
+        
         delegate?.didSelect(item)
     }
     
     func collectionView(collectionView: UICollectionView, didHighlightItemAtIndexPath indexPath: NSIndexPath) {
         highlightItem(collectionView, indexPath: indexPath)
+        
     }
     
     func collectionView(collectionView: UICollectionView, didUnhighlightItemAtIndexPath indexPath: NSIndexPath) {
         unHighlightItem(collectionView, indexPath: indexPath)
     }
+  
 }
