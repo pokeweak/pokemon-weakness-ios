@@ -24,7 +24,6 @@ extension PokemonDetailViewController: PokemonDetailView {
         
         if pokemon.weaknesses.count <= PokemonDetailViewConfiguration.minimalItems {
             pokemonBackgroundViewBottomLayoutConstraint.constant = CGFloat(PokemonDetailViewConfiguration.windowHeightForMinimalItems)
-            view.layoutIfNeeded()
         }
     }
 }
