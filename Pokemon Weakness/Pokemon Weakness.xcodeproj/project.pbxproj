@@ -341,6 +341,7 @@
 		2E32A3E01D4B945000C8E4C2 /* AboutPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E32A3DF1D4B945000C8E4C2 /* AboutPresenter.swift */; };
 		2E32A3E21D4B946900C8E4C2 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E32A3E11D4B946900C8E4C2 /* AboutView.swift */; };
 		2E32A3E41D4B966600C8E4C2 /* AboutPresenter+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E32A3E31D4B966600C8E4C2 /* AboutPresenter+View.swift */; };
+		2E32A3E71D4B970800C8E4C2 /* AboutNavigationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E32A3E61D4B970800C8E4C2 /* AboutNavigationRouter.swift */; };
 		2E3B3A3D1D465038004455AD /* PokemonDetailViewController+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3B3A3C1D465038004455AD /* PokemonDetailViewController+UI.swift */; };
 		2E3B3A411D4653C1004455AD /* WeaknessItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3B3A3F1D4653C1004455AD /* WeaknessItemCell.swift */; };
 		2E3B3A421D4653C1004455AD /* WeaknessItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E3B3A401D4653C1004455AD /* WeaknessItemCell.xib */; };
@@ -774,6 +775,7 @@
 		2E32A3DF1D4B945000C8E4C2 /* AboutPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutPresenter.swift; sourceTree = "<group>"; };
 		2E32A3E11D4B946900C8E4C2 /* AboutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 		2E32A3E31D4B966600C8E4C2 /* AboutPresenter+View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AboutPresenter+View.swift"; sourceTree = "<group>"; };
+		2E32A3E61D4B970800C8E4C2 /* AboutNavigationRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutNavigationRouter.swift; sourceTree = "<group>"; };
 		2E3B3A3C1D465038004455AD /* PokemonDetailViewController+UI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PokemonDetailViewController+UI.swift"; sourceTree = "<group>"; };
 		2E3B3A3F1D4653C1004455AD /* WeaknessItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeaknessItemCell.swift; sourceTree = "<group>"; };
 		2E3B3A401D4653C1004455AD /* WeaknessItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WeaknessItemCell.xib; sourceTree = "<group>"; };
@@ -1325,6 +1327,7 @@
 				2E32A3C31D4B8A3900C8E4C2 /* View */,
 				2E32A3DE1D4B943E00C8E4C2 /* Presenter */,
 				2E32A3DA1D4B92EF00C8E4C2 /* Controller */,
+				2E32A3E51D4B96F100C8E4C2 /* Navigation */,
 			);
 			path = About;
 			sourceTree = "<group>";
@@ -1407,6 +1410,14 @@
 				2E32A3E31D4B966600C8E4C2 /* AboutPresenter+View.swift */,
 			);
 			path = Presenter;
+			sourceTree = "<group>";
+		};
+		2E32A3E51D4B96F100C8E4C2 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				2E32A3E61D4B970800C8E4C2 /* AboutNavigationRouter.swift */,
+			);
+			path = Navigation;
 			sourceTree = "<group>";
 		};
 		2E3B3A3E1D465395004455AD /* Cell */ = {
@@ -2750,6 +2761,7 @@
 				2EB3957F1D3C010A00BDA594 /* DefaultWindowCoordinable.swift in Sources */,
 				2EB395BC1D3C11E400BDA594 /* PokemonViewModel.swift in Sources */,
 				2E3B3A791D47B2C7004455AD /* EmptyStateUI.swift in Sources */,
+				2E32A3E71D4B970800C8E4C2 /* AboutNavigationRouter.swift in Sources */,
 				2EB395A11D3C088D00BDA594 /* BaseViewController+UI.swift in Sources */,
 				2EB395621D3BF83100BDA594 /* Task.swift in Sources */,
 				2E3B3A4B1D465680004455AD /* WeaknessItemCellRenderer.swift in Sources */,
