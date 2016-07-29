@@ -6,11 +6,12 @@
 //  Copyright © 2016 Skydev. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 struct AboutItemViewModel {
     
     let pokeball: String
+    let color: UIColor
     let name: String
     let job: String
 }
