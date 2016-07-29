@@ -62,6 +62,10 @@ class PokemonListPresenter {
         }
     }
     
+    func cancelSearch() {
+        search("")
+    }
+    
     private func updatePokemonList(pokemons: [PokemonViewModel]) {
         
         self.view?.setDataSource(
@@ -73,6 +77,8 @@ class PokemonListPresenter {
         self.view?.reload(true)
     }
 }
+
+// MARK: - PokemonListCollectionDataSourceDelegate
 
 extension PokemonListPresenter: PokemonListCollectionDataSourceDelegate {
     

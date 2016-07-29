@@ -9,7 +9,7 @@
 import UIKit
 
 private struct PokemonDetailViewConfiguration {
-    static let windowHeightForMinimalItems = 160
+    static let windowHeightForMinimalItems = 158
     static let minimalItems = 3
 }
 
@@ -24,7 +24,6 @@ extension PokemonDetailViewController: PokemonDetailView {
         
         if pokemon.weaknesses.count <= PokemonDetailViewConfiguration.minimalItems {
             pokemonBackgroundViewBottomLayoutConstraint.constant = CGFloat(PokemonDetailViewConfiguration.windowHeightForMinimalItems)
-            view.layoutIfNeeded()
         }
     }
 }

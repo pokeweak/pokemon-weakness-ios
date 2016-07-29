@@ -49,7 +49,7 @@ final internal class InteractiveTransition: UIPercentDrivenInteractiveTransition
             hasStarted = true
             vc.dismissViewControllerAnimated(true, completion: nil)
         case .Changed:
-            shouldFinish = progress > 0.3
+            shouldFinish = progress > 0.1
             updateInteractiveTransition(progress)
         case .Cancelled:
             hasStarted = false

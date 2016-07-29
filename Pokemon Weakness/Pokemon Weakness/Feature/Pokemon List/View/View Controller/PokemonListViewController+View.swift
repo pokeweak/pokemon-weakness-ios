@@ -11,6 +11,7 @@ import Foundation
 extension PokemonListViewController: PokemonListView {
     
     func showDetail(pokemon: PokemonViewModel) {
+        searchBar.resignFirstResponder()
         pokemonDetailNavigationRouterProvider.pokemonDetailNavigation(pokemon).navigate(self)
     }
 }
