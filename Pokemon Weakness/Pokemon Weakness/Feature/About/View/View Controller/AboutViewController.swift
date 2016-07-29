@@ -12,7 +12,7 @@ protocol AboutViewControllerProvider {
     func aboutViewController() -> AboutViewController
 }
 
-class AboutViewController: UIViewController {
+class AboutViewController: CollectionBaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
