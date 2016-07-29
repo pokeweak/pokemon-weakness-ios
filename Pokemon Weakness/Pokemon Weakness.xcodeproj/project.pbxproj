@@ -333,6 +333,8 @@
 		2E32A3C81D4B8A4E00C8E4C2 /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E32A3C61D4B8A4E00C8E4C2 /* AboutViewController.xib */; };
 		2E32A3CC1D4B8C5000C8E4C2 /* AboutItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E32A3CA1D4B8C5000C8E4C2 /* AboutItemCell.swift */; };
 		2E32A3CD1D4B8C5000C8E4C2 /* AboutItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E32A3CB1D4B8C5000C8E4C2 /* AboutItemCell.xib */; };
+		2E32A3CF1D4B905D00C8E4C2 /* AboutItemCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E32A3CE1D4B905D00C8E4C2 /* AboutItemCellView.swift */; };
+		2E32A3D11D4B90AC00C8E4C2 /* AboutItemCell+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E32A3D01D4B90AC00C8E4C2 /* AboutItemCell+View.swift */; };
 		2E3B3A3D1D465038004455AD /* PokemonDetailViewController+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3B3A3C1D465038004455AD /* PokemonDetailViewController+UI.swift */; };
 		2E3B3A411D4653C1004455AD /* WeaknessItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3B3A3F1D4653C1004455AD /* WeaknessItemCell.swift */; };
 		2E3B3A421D4653C1004455AD /* WeaknessItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E3B3A401D4653C1004455AD /* WeaknessItemCell.xib */; };
@@ -758,6 +760,8 @@
 		2E32A3C61D4B8A4E00C8E4C2 /* AboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutViewController.xib; sourceTree = "<group>"; };
 		2E32A3CA1D4B8C5000C8E4C2 /* AboutItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutItemCell.swift; sourceTree = "<group>"; };
 		2E32A3CB1D4B8C5000C8E4C2 /* AboutItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutItemCell.xib; sourceTree = "<group>"; };
+		2E32A3CE1D4B905D00C8E4C2 /* AboutItemCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutItemCellView.swift; sourceTree = "<group>"; };
+		2E32A3D01D4B90AC00C8E4C2 /* AboutItemCell+View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AboutItemCell+View.swift"; sourceTree = "<group>"; };
 		2E3B3A3C1D465038004455AD /* PokemonDetailViewController+UI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PokemonDetailViewController+UI.swift"; sourceTree = "<group>"; };
 		2E3B3A3F1D4653C1004455AD /* WeaknessItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeaknessItemCell.swift; sourceTree = "<group>"; };
 		2E3B3A401D4653C1004455AD /* WeaknessItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WeaknessItemCell.xib; sourceTree = "<group>"; };
@@ -1331,7 +1335,9 @@
 		2E32A3C91D4B8C2A00C8E4C2 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				2E32A3CE1D4B905D00C8E4C2 /* AboutItemCellView.swift */,
 				2E32A3CA1D4B8C5000C8E4C2 /* AboutItemCell.swift */,
+				2E32A3D01D4B90AC00C8E4C2 /* AboutItemCell+View.swift */,
 				2E32A3CB1D4B8C5000C8E4C2 /* AboutItemCell.xib */,
 			);
 			path = Cell;
@@ -2643,6 +2649,7 @@
 				2EB395B41D3C0D1A00BDA594 /* PokemonItemCellView.swift in Sources */,
 				2EB3957D1D3BFFB700BDA594 /* WindowCoordinable.swift in Sources */,
 				2EB395E31D3C37F000BDA594 /* UIView+Extended.swift in Sources */,
+				2E32A3D11D4B90AC00C8E4C2 /* AboutItemCell+View.swift in Sources */,
 				2E3B3A731D47B1C2004455AD /* EmptyState.swift in Sources */,
 				2EB395751D3BFE2900BDA594 /* TestEnviromentDetector.swift in Sources */,
 				2E3B3A531D4657D0004455AD /* WeaknessListCollectionDataSource.swift in Sources */,
@@ -2675,6 +2682,7 @@
 				2EB395A11D3C088D00BDA594 /* BaseViewController+UI.swift in Sources */,
 				2EB395621D3BF83100BDA594 /* Task.swift in Sources */,
 				2E3B3A4B1D465680004455AD /* WeaknessItemCellRenderer.swift in Sources */,
+				2E32A3CF1D4B905D00C8E4C2 /* AboutItemCellView.swift in Sources */,
 				2EB395681D3BFAB600BDA594 /* DependencyContainer.swift in Sources */,
 				2EDDC5041D45600900D444D6 /* PokemonDetailNavigationRouter.swift in Sources */,
 				2E32A3C71D4B8A4E00C8E4C2 /* AboutViewController.swift in Sources */,
