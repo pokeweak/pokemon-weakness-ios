@@ -35,7 +35,7 @@ class AboutCollectionDataSource<T>: CollectionDataSource<AboutItemViewModel> {
     
     override func collection<T: UICollectionView>(collection: T, sizeForRowAtIndexPath: NSIndexPath) -> CGSize {
         
-        let margin = 10
+        let margin = 20
         
         let itemWidth = screen.screnSize(
             byAddingMargins: margin
@@ -43,7 +43,7 @@ class AboutCollectionDataSource<T>: CollectionDataSource<AboutItemViewModel> {
         
         return CGSize(
             width: itemWidth,
-            height: WeaknessItemCell.size.height
+            height: AboutItemCell.size.height
         )
     }
 }

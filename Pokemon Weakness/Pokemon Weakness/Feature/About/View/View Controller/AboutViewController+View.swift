@@ -1,5 +1,5 @@
 //
-//  AboutPresenter+View.swift
+//  AboutViewController+View.swift
 //  Pokemon Weakness
 //
 //  Created by Oscar Duran on 29/7/16.

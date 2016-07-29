@@ -12,7 +12,7 @@
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                 <rect key="frame" x="0.0" y="0.0" width="320" height="90"/>
                 <subviews>
-                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dqh-cV-0GD">
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dqh-cV-0GD">
                         <rect key="frame" x="0.0" y="0.0" width="112" height="90"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pokeball_red" translatesAutoresizingMaskIntoConstraints="NO" id="3Cb-DB-8ey" userLabel="Pokeball">
@@ -49,6 +49,7 @@
                 </subviews>
                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             </view>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
                 <constraint firstItem="Dqh-cV-0GD" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="3dp-kg-h5e"/>
                 <constraint firstAttribute="trailing" secondItem="Onu-FV-xXB" secondAttribute="trailing" constant="20" id="3pS-2b-Qxo"/>

@@ -10,6 +10,13 @@ import UIKit
 
 class AboutItemCell: UICollectionViewCell {
 
+    static var size: CGSize {
+        return CGSize(
+            width: 320,
+            height: 90
+        )
+    }
+    
     @IBOutlet weak var pokeballImageView: UIImageView!
     
     @IBOutlet weak var nameLabel: UILabel!
@@ -17,5 +24,8 @@ class AboutItemCell: UICollectionViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
+        
+        applyShadow()
+        applyCornerRadius(4)
     }
 }
