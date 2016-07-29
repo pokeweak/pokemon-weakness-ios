@@ -329,6 +329,8 @@
 		2E2422291D3D584400B30580 /* pokemon_list.json in Resources */ = {isa = PBXBuildFile; fileRef = 2E2422271D3D583E00B30580 /* pokemon_list.json */; };
 		2E24222D1D3D59CA00B30580 /* JSONLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E24222C1D3D59CA00B30580 /* JSONLoader.swift */; };
 		2E24222E1D3D59CA00B30580 /* JSONLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E24222C1D3D59CA00B30580 /* JSONLoader.swift */; };
+		2E32A3C71D4B8A4E00C8E4C2 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E32A3C51D4B8A4E00C8E4C2 /* AboutViewController.swift */; };
+		2E32A3C81D4B8A4E00C8E4C2 /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E32A3C61D4B8A4E00C8E4C2 /* AboutViewController.xib */; };
 		2E3B3A3D1D465038004455AD /* PokemonDetailViewController+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3B3A3C1D465038004455AD /* PokemonDetailViewController+UI.swift */; };
 		2E3B3A411D4653C1004455AD /* WeaknessItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3B3A3F1D4653C1004455AD /* WeaknessItemCell.swift */; };
 		2E3B3A421D4653C1004455AD /* WeaknessItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E3B3A401D4653C1004455AD /* WeaknessItemCell.xib */; };
@@ -750,6 +752,8 @@
 		2E2422241D3D42C800B30580 /* Math.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
 		2E2422271D3D583E00B30580 /* pokemon_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pokemon_list.json; sourceTree = "<group>"; };
 		2E24222C1D3D59CA00B30580 /* JSONLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONLoader.swift; sourceTree = "<group>"; };
+		2E32A3C51D4B8A4E00C8E4C2 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		2E32A3C61D4B8A4E00C8E4C2 /* AboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutViewController.xib; sourceTree = "<group>"; };
 		2E3B3A3C1D465038004455AD /* PokemonDetailViewController+UI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PokemonDetailViewController+UI.swift"; sourceTree = "<group>"; };
 		2E3B3A3F1D4653C1004455AD /* WeaknessItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeaknessItemCell.swift; sourceTree = "<group>"; };
 		2E3B3A401D4653C1004455AD /* WeaknessItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WeaknessItemCell.xib; sourceTree = "<group>"; };
@@ -1294,6 +1298,31 @@
 			path = JSONLoader;
 			sourceTree = "<group>";
 		};
+		2E32A3C21D4B8A2800C8E4C2 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				2E32A3C31D4B8A3900C8E4C2 /* View */,
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
+		2E32A3C31D4B8A3900C8E4C2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2E32A3C41D4B8A3900C8E4C2 /* View Controller */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2E32A3C41D4B8A3900C8E4C2 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2E32A3C51D4B8A4E00C8E4C2 /* AboutViewController.swift */,
+				2E32A3C61D4B8A4E00C8E4C2 /* AboutViewController.xib */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
 		2E3B3A3E1D465395004455AD /* Cell */ = {
 			isa = PBXGroup;
 			children = (
@@ -1714,6 +1743,7 @@
 				2EB3958C1D3C061A00BDA594 /* Base */,
 				2EB395811D3C01B300BDA594 /* Pokemon List */,
 				2EDDC4F81D43800400D444D6 /* Pokemon Detail */,
+				2E32A3C21D4B8A2800C8E4C2 /* About */,
 			);
 			name = "Feature 🚀";
 			path = Feature;
@@ -2287,6 +2317,7 @@
 				2E0306921D412893006F924C /* 19.png in Resources */,
 				2E0307051D412893006F924C /* 124_small.png in Resources */,
 				2E0307391D412893006F924C /* 34_small.png in Resources */,
+				2E32A3C81D4B8A4E00C8E4C2 /* AboutViewController.xib in Resources */,
 				2E0306E51D412893006F924C /* 94.png in Resources */,
 				2E03076B1D412893006F924C /* 7_small.png in Resources */,
 				2E0306D01D412893006F924C /* 75.png in Resources */,
@@ -2630,6 +2661,7 @@
 				2E3B3A4B1D465680004455AD /* WeaknessItemCellRenderer.swift in Sources */,
 				2EB395681D3BFAB600BDA594 /* DependencyContainer.swift in Sources */,
 				2EDDC5041D45600900D444D6 /* PokemonDetailNavigationRouter.swift in Sources */,
+				2E32A3C71D4B8A4E00C8E4C2 /* AboutViewController.swift in Sources */,
 				2EB395DE1D3C350500BDA594 /* UIColor+AppColors.swift in Sources */,
 				2E3B3A7B1D47B2FC004455AD /* CollectionBaseViewController+EmptyState.swift in Sources */,
 				2E2422251D3D42C800B30580 /* Math.swift in Sources */,
