@@ -31,7 +31,9 @@ extension Assembly: PokemonDetailViewControllerProvider {
 extension Assembly: AboutViewControllerProvider {
     
     func aboutViewController() -> AboutViewController {
-        return AboutViewController()
+        return AboutViewController(
+            aboutPresenter: getAboutPresenter()
+        )
     }
 }
 
