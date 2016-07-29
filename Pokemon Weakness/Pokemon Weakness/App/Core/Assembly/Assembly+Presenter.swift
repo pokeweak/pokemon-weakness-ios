@@ -24,4 +24,10 @@ extension Assembly {
             weaknessListCollectionDataSource: getWeaknessListCollectionDataSource()
         )
     }
+    
+    func getAboutPresenter() -> AboutPresenter {
+        return AboutPresenter(
+            aboutCollectionDataSource: getAboutCollectionDataSource()
+        )
+    }
 }

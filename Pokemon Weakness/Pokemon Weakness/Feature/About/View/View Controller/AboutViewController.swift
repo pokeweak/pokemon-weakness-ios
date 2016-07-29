@@ -14,7 +14,23 @@ protocol AboutViewControllerProvider {
 
 class AboutViewController: CollectionBaseViewController {
 
+    let aboutPresenter: AboutPresenter
+    
+    init(aboutPresenter: AboutPresenter) {
+        self.aboutPresenter = aboutPresenter
+        
+        super.init(
+            nibName: AboutViewController.nibName,
+            bundle: nil
+        )
+        self.aboutPresenter.view = self
+    }
+ 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        aboutPresenter.viewDidLoad()
     }
+    
+    required init?(coder aDecoder: NSCoder) { fatalError() }
 }

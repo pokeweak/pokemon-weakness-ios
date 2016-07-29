@@ -340,6 +340,7 @@
 		2E32A3DD1D4B932100C8E4C2 /* AboutCollectionDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E32A3DC1D4B932100C8E4C2 /* AboutCollectionDataSource.swift */; };
 		2E32A3E01D4B945000C8E4C2 /* AboutPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E32A3DF1D4B945000C8E4C2 /* AboutPresenter.swift */; };
 		2E32A3E21D4B946900C8E4C2 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E32A3E11D4B946900C8E4C2 /* AboutView.swift */; };
+		2E32A3E41D4B966600C8E4C2 /* AboutPresenter+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E32A3E31D4B966600C8E4C2 /* AboutPresenter+View.swift */; };
 		2E3B3A3D1D465038004455AD /* PokemonDetailViewController+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3B3A3C1D465038004455AD /* PokemonDetailViewController+UI.swift */; };
 		2E3B3A411D4653C1004455AD /* WeaknessItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3B3A3F1D4653C1004455AD /* WeaknessItemCell.swift */; };
 		2E3B3A421D4653C1004455AD /* WeaknessItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E3B3A401D4653C1004455AD /* WeaknessItemCell.xib */; };
@@ -772,6 +773,7 @@
 		2E32A3DC1D4B932100C8E4C2 /* AboutCollectionDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutCollectionDataSource.swift; sourceTree = "<group>"; };
 		2E32A3DF1D4B945000C8E4C2 /* AboutPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutPresenter.swift; sourceTree = "<group>"; };
 		2E32A3E11D4B946900C8E4C2 /* AboutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		2E32A3E31D4B966600C8E4C2 /* AboutPresenter+View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AboutPresenter+View.swift"; sourceTree = "<group>"; };
 		2E3B3A3C1D465038004455AD /* PokemonDetailViewController+UI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PokemonDetailViewController+UI.swift"; sourceTree = "<group>"; };
 		2E3B3A3F1D4653C1004455AD /* WeaknessItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeaknessItemCell.swift; sourceTree = "<group>"; };
 		2E3B3A401D4653C1004455AD /* WeaknessItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WeaknessItemCell.xib; sourceTree = "<group>"; };
@@ -1402,6 +1404,7 @@
 			isa = PBXGroup;
 			children = (
 				2E32A3DF1D4B945000C8E4C2 /* AboutPresenter.swift */,
+				2E32A3E31D4B966600C8E4C2 /* AboutPresenter+View.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -2692,6 +2695,7 @@
 				2E3B3A451D465525004455AD /* WeaknessItemCellView.swift in Sources */,
 				2E3B3A5A1D4659CA004455AD /* PokemonDetailPresenter.swift in Sources */,
 				2EC2F3681D3FEB7A001F1328 /* PokemonItemCell+UI.swift in Sources */,
+				2E32A3E41D4B966600C8E4C2 /* AboutPresenter+View.swift in Sources */,
 				2E12BFAD1D3FCC5800D922CC /* Assembly+UseCase.swift in Sources */,
 				2E32A3E01D4B945000C8E4C2 /* AboutPresenter.swift in Sources */,
 				2EB395CF1D3C22E500BDA594 /* Assembly+CollectionDataSource.swift in Sources */,
