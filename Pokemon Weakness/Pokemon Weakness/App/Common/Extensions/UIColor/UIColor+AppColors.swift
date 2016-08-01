@@ -26,3 +26,20 @@ extension UIColor {
         return UIColor(hex: 0xA6B0B6)
     }
 }
+
+// MARK: - Team member colors
+
+extension UIColor {
+    
+    public class func greenishTeal() -> UIColor {
+        return UIColor(hex: 0x2ecc71)
+    }
+    
+    public class func tomato() -> UIColor {
+        return UIColor(hex: 0xf24119)
+    }
+    
+    public class func darkSkyBlue() -> UIColor {
+        return UIColor(hex: 0x4a90e2)
+    }
+}

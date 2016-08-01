@@ -18,12 +18,15 @@ class PokemonListViewController: CollectionBaseViewController {
     
     let pokemonListPresenter: PokemonListPresenter
     let pokemonDetailNavigationRouterProvider: PokemonDetailNavigationRouterProvider
+    let aboutNavigationRouter: AboutNavigationRouter
     
     init(pokemonListPresenter: PokemonListPresenter,
-         pokemonDetailNavigationRouterProvider: PokemonDetailNavigationRouterProvider)
+         pokemonDetailNavigationRouterProvider: PokemonDetailNavigationRouterProvider,
+         aboutNavigationRouter: AboutNavigationRouter)
     {
         self.pokemonListPresenter = pokemonListPresenter
         self.pokemonDetailNavigationRouterProvider = pokemonDetailNavigationRouterProvider
+        self.aboutNavigationRouter = aboutNavigationRouter
         
         super.init(
             nibName: PokemonListViewController.nibName,
@@ -38,6 +41,6 @@ class PokemonListViewController: CollectionBaseViewController {
         
         pokemonListPresenter.viewDidLoad()
     }
-    
+
     required init?(coder aDecoder: NSCoder) { fatalError() }
 }

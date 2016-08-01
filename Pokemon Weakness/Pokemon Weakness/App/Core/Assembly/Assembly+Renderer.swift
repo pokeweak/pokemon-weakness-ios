@@ -17,4 +17,8 @@ extension Assembly {
     func getWeaknessItemCellRenderer() -> WeaknessItemCellRenderer {
         return WeaknessItemCellRenderer()
     }
+    
+    func getAboutItemCellRenderer() -> AboutItemCellRenderer {
+        return AboutItemCellRenderer()
+    }
 }

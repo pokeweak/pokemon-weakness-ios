@@ -23,4 +23,11 @@ extension Assembly {
             weaknessItemCellRenderer: getWeaknessItemCellRenderer()
         )
     }
+    
+    func getAboutCollectionDataSource() -> AboutCollectionDataSource<AboutItemViewModel> {
+        return AboutCollectionDataSource(
+            screen: getMainScreen(),
+            aboutItemCellRenderer: getAboutItemCellRenderer()
+        )
+    }
 }

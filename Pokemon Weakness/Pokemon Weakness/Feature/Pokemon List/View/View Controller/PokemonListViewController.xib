@@ -62,6 +62,18 @@
                                 <color key="textColor" red="0.16470588743686676" green="0.23529411852359772" blue="0.29411765933036804" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dju-HK-jwE" userLabel="About Button">
+                                <rect key="frame" x="562" y="28" width="28" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="28" id="NCc-Nb-nfK"/>
+                                    <constraint firstAttribute="height" constant="28" id="WI7-Ga-Ep9"/>
+                                </constraints>
+                                <state key="normal" image="pokeball_disabled"/>
+                                <state key="highlighted" image="pokeball_enabled"/>
+                                <connections>
+                                    <action selector="didPressAboutButton:" destination="-1" eventType="touchUpInside" id="00A-D7-A3T"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.98039215686274506" green="0.98039215686274506" blue="0.98039215686274506" alpha="0.69999999999999996" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -69,10 +81,12 @@
                             <constraint firstAttribute="trailing" secondItem="atT-Ja-f97" secondAttribute="trailing" id="69D-rL-i8K"/>
                             <constraint firstItem="GEj-Gz-2hG" firstAttribute="leading" secondItem="de1-Mf-oQV" secondAttribute="leading" id="BlG-Jp-aAk"/>
                             <constraint firstAttribute="trailing" secondItem="pKk-A8-Dsb" secondAttribute="trailing" constant="8" id="COu-au-Ur8"/>
+                            <constraint firstItem="Dju-HK-jwE" firstAttribute="top" secondItem="de1-Mf-oQV" secondAttribute="top" constant="28" id="Dec-Tc-QEX"/>
                             <constraint firstItem="pKk-A8-Dsb" firstAttribute="leading" secondItem="de1-Mf-oQV" secondAttribute="leading" constant="8" id="DuS-sb-Hzg"/>
                             <constraint firstItem="GEj-Gz-2hG" firstAttribute="top" secondItem="atT-Ja-f97" secondAttribute="bottom" id="K2t-Gd-VS8"/>
                             <constraint firstItem="atT-Ja-f97" firstAttribute="top" secondItem="pKk-A8-Dsb" secondAttribute="bottom" constant="13" id="XJN-wX-rXR"/>
                             <constraint firstAttribute="trailing" secondItem="FCV-ea-oY0" secondAttribute="trailing" id="YQD-9o-NSO"/>
+                            <constraint firstAttribute="trailing" secondItem="Dju-HK-jwE" secondAttribute="trailing" constant="10" id="b5h-8F-ofw"/>
                             <constraint firstAttribute="trailing" secondItem="GEj-Gz-2hG" secondAttribute="trailing" id="eKX-nK-VlS"/>
                             <constraint firstAttribute="bottom" secondItem="FCV-ea-oY0" secondAttribute="bottom" id="jZI-fH-skL"/>
                             <constraint firstItem="FCV-ea-oY0" firstAttribute="leading" secondItem="de1-Mf-oQV" secondAttribute="leading" id="kix-He-uQz"/>
@@ -99,4 +113,8 @@
             <point key="canvasLocation" x="403" y="140"/>
         </view>
     </objects>
+    <resources>
+        <image name="pokeball_disabled" width="30" height="30"/>
+        <image name="pokeball_enabled" width="30" height="30"/>
+    </resources>
 </document>
