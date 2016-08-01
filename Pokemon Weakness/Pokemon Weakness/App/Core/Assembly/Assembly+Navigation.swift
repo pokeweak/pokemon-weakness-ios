@@ -8,6 +8,15 @@
 
 import Foundation
 
+extension Assembly {
+    
+    func getAboutNavigationRouter() -> AboutNavigationRouter {
+        return AboutNavigationRouter(
+            aboutViewControllerProvider: self
+        )
+    }
+}
+
 extension Assembly: PokemonDetailNavigationRouterProvider {
     
     func pokemonDetailNavigation(pokemon: PokemonViewModel) -> PokemonDetailNavigationRouter {

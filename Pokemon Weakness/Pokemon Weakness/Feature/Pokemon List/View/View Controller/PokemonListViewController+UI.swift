@@ -6,7 +6,7 @@
 //  Copyright © 2016 Skydev. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 extension PokemonListViewController {
     
@@ -16,5 +16,9 @@ extension PokemonListViewController {
         collectionView?.registerNib(
             PokemonItemCell.self
         )
+    }
+    
+    @IBAction func didPressAboutButton(sender: UIButton) {
+        aboutNavigationRouter.navigate(self)
     }
 }
