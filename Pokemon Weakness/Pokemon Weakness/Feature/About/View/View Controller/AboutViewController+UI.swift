@@ -6,7 +6,7 @@
 //  Copyright © 2016 Skydev. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 extension AboutViewController {
  
@@ -16,5 +16,31 @@ extension AboutViewController {
         collectionView?.registerNib(
             AboutItemCell.self
         )
+        
+        configureNavigationBar()
+        configureCloseButton()
+    }
+    
+    private func configureNavigationBar() {
+        let logoImage = UIImage(named: "pokeball_enabled")
+        let logoImageView = UIImageView(image: logoImage)
+        navigationItem.titleView = logoImageView
+    }
+    
+    private func configureCloseButton() {
+        let closeIconImage = UIImage(named: "close_icon")
+        let closeBarButtonItem = UIBarButtonItem(
+            image: closeIconImage,
+            style: .Done,
+            target: self,
+            action: #selector(didPressCloseButton(_:))
+        )
+        closeBarButtonItem.tintColor = .blackColor()
+        
+        navigationItem.leftBarButtonItem = closeBarButtonItem
+    }
+    
+    func didPressCloseButton(sender: UIBarButtonItem) {
+        dismissViewControllerAnimated(true, completion: nil)
     }
 }
