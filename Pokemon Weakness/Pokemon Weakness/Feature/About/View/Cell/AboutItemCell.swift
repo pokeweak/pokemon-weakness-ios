@@ -17,6 +17,8 @@ class AboutItemCell: UICollectionViewCell {
         )
     }
     
+    @IBOutlet weak var memberBackgroundView: UIView!
+    
     @IBOutlet weak var pokeballImageView: UIImageView!
     
     @IBOutlet weak var nameLabel: UILabel!
@@ -27,5 +29,6 @@ class AboutItemCell: UICollectionViewCell {
         
         applyShadow()
         applyCornerRadius(4)
+        memberBackgroundView.applyCornerRadius(4)
     }
 }

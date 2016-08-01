@@ -13,4 +13,5 @@ protocol AboutItemCellView {
     func setPokeball(image: UIImage)
     func setName(name: String)
     func setJob(job: String)
+    func setMemberColor(color: UIColor)
 }

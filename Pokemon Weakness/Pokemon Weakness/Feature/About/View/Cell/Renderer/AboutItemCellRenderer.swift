@@ -19,5 +19,6 @@ class AboutItemCellRenderer: Renderable {
         view.setPokeball(pokeballImage!)
         view.setName(data.name)
         view.setJob(data.job)
+        view.setMemberColor(data.color)
     }
 }

@@ -21,4 +21,8 @@ extension AboutItemCell: AboutItemCellView {
     func setJob(job: String) {
         jobLabel.text = job
     }
+    
+    func setMemberColor(color: UIColor) {
+        memberBackgroundView.backgroundColor = color
+    }
 }

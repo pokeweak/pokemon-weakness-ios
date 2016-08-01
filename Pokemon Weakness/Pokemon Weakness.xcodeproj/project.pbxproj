@@ -329,12 +329,12 @@
 		2E2422291D3D584400B30580 /* pokemon_list.json in Resources */ = {isa = PBXBuildFile; fileRef = 2E2422271D3D583E00B30580 /* pokemon_list.json */; };
 		2E24222D1D3D59CA00B30580 /* JSONLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E24222C1D3D59CA00B30580 /* JSONLoader.swift */; };
 		2E24222E1D3D59CA00B30580 /* JSONLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E24222C1D3D59CA00B30580 /* JSONLoader.swift */; };
+		2E27321B1D4FF665002AD3A6 /* AboutItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E2732181D4FF665002AD3A6 /* AboutItemCell.xib */; };
+		2E27321C1D4FF665002AD3A6 /* AboutItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2732191D4FF665002AD3A6 /* AboutItemCell.swift */; };
+		2E27321D1D4FF665002AD3A6 /* AboutItemCell+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E27321A1D4FF665002AD3A6 /* AboutItemCell+View.swift */; };
 		2E32A3C71D4B8A4E00C8E4C2 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E32A3C51D4B8A4E00C8E4C2 /* AboutViewController.swift */; };
 		2E32A3C81D4B8A4E00C8E4C2 /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E32A3C61D4B8A4E00C8E4C2 /* AboutViewController.xib */; };
-		2E32A3CC1D4B8C5000C8E4C2 /* AboutItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E32A3CA1D4B8C5000C8E4C2 /* AboutItemCell.swift */; };
-		2E32A3CD1D4B8C5000C8E4C2 /* AboutItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E32A3CB1D4B8C5000C8E4C2 /* AboutItemCell.xib */; };
 		2E32A3CF1D4B905D00C8E4C2 /* AboutItemCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E32A3CE1D4B905D00C8E4C2 /* AboutItemCellView.swift */; };
-		2E32A3D11D4B90AC00C8E4C2 /* AboutItemCell+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E32A3D01D4B90AC00C8E4C2 /* AboutItemCell+View.swift */; };
 		2E32A3D41D4B910E00C8E4C2 /* AboutItemCellRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E32A3D31D4B910E00C8E4C2 /* AboutItemCellRenderer.swift */; };
 		2E32A3D91D4B91EF00C8E4C2 /* AboutItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E32A3D81D4B91EF00C8E4C2 /* AboutItemViewModel.swift */; };
 		2E32A3DD1D4B932100C8E4C2 /* AboutCollectionDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E32A3DC1D4B932100C8E4C2 /* AboutCollectionDataSource.swift */; };
@@ -764,12 +764,12 @@
 		2E2422241D3D42C800B30580 /* Math.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
 		2E2422271D3D583E00B30580 /* pokemon_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pokemon_list.json; sourceTree = "<group>"; };
 		2E24222C1D3D59CA00B30580 /* JSONLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONLoader.swift; sourceTree = "<group>"; };
+		2E2732181D4FF665002AD3A6 /* AboutItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutItemCell.xib; sourceTree = "<group>"; };
+		2E2732191D4FF665002AD3A6 /* AboutItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutItemCell.swift; sourceTree = "<group>"; };
+		2E27321A1D4FF665002AD3A6 /* AboutItemCell+View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AboutItemCell+View.swift"; sourceTree = "<group>"; };
 		2E32A3C51D4B8A4E00C8E4C2 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		2E32A3C61D4B8A4E00C8E4C2 /* AboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutViewController.xib; sourceTree = "<group>"; };
-		2E32A3CA1D4B8C5000C8E4C2 /* AboutItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutItemCell.swift; sourceTree = "<group>"; };
-		2E32A3CB1D4B8C5000C8E4C2 /* AboutItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutItemCell.xib; sourceTree = "<group>"; };
 		2E32A3CE1D4B905D00C8E4C2 /* AboutItemCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutItemCellView.swift; sourceTree = "<group>"; };
-		2E32A3D01D4B90AC00C8E4C2 /* AboutItemCell+View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AboutItemCell+View.swift"; sourceTree = "<group>"; };
 		2E32A3D31D4B910E00C8E4C2 /* AboutItemCellRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutItemCellRenderer.swift; sourceTree = "<group>"; };
 		2E32A3D81D4B91EF00C8E4C2 /* AboutItemViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutItemViewModel.swift; sourceTree = "<group>"; };
 		2E32A3DC1D4B932100C8E4C2 /* AboutCollectionDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutCollectionDataSource.swift; sourceTree = "<group>"; };
@@ -1360,9 +1360,9 @@
 			children = (
 				2E32A3D21D4B910200C8E4C2 /* Renderer */,
 				2E32A3CE1D4B905D00C8E4C2 /* AboutItemCellView.swift */,
-				2E32A3CA1D4B8C5000C8E4C2 /* AboutItemCell.swift */,
-				2E32A3D01D4B90AC00C8E4C2 /* AboutItemCell+View.swift */,
-				2E32A3CB1D4B8C5000C8E4C2 /* AboutItemCell.xib */,
+				2E2732181D4FF665002AD3A6 /* AboutItemCell.xib */,
+				2E2732191D4FF665002AD3A6 /* AboutItemCell.swift */,
+				2E27321A1D4FF665002AD3A6 /* AboutItemCell+View.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -2441,7 +2441,7 @@
 				2E0307371D412893006F924C /* 32_small.png in Resources */,
 				2E03067B1D412893006F924C /* 134.png in Resources */,
 				2E0306E41D412893006F924C /* 93.png in Resources */,
-				2E32A3CD1D4B8C5000C8E4C2 /* AboutItemCell.xib in Resources */,
+				2E27321B1D4FF665002AD3A6 /* AboutItemCell.xib in Resources */,
 				2E0306A31D412893006F924C /* 34.png in Resources */,
 				2E03075D1D412893006F924C /* 67_small.png in Resources */,
 				2E03071C1D412893006F924C /* 145_small.png in Resources */,
@@ -2710,6 +2710,7 @@
 				2E3B3A5A1D4659CA004455AD /* PokemonDetailPresenter.swift in Sources */,
 				2EC2F3681D3FEB7A001F1328 /* PokemonItemCell+UI.swift in Sources */,
 				2E12BFAD1D3FCC5800D922CC /* Assembly+UseCase.swift in Sources */,
+				2E27321C1D4FF665002AD3A6 /* AboutItemCell.swift in Sources */,
 				2E32A3E01D4B945000C8E4C2 /* AboutPresenter.swift in Sources */,
 				2EB395CF1D3C22E500BDA594 /* Assembly+CollectionDataSource.swift in Sources */,
 				2EB395901D3C064000BDA594 /* DataSourceUI.swift in Sources */,
@@ -2725,7 +2726,6 @@
 				2E12BFB11D3FCCC500D922CC /* DefaultPokemonRepository.swift in Sources */,
 				2E32A3DD1D4B932100C8E4C2 /* AboutCollectionDataSource.swift in Sources */,
 				2E32A3EB1D4B983800C8E4C2 /* AboutViewController+View.swift in Sources */,
-				2E32A3CC1D4B8C5000C8E4C2 /* AboutItemCell.swift in Sources */,
 				2EB3957A1D3BFEEB00BDA594 /* Assembly+Controller.swift in Sources */,
 				2EB395C31D3C16E000BDA594 /* PokemonListCollectionDataSource.swift in Sources */,
 				2EB395341D3BE92E00BDA594 /* AppDelegate.swift in Sources */,
@@ -2733,7 +2733,6 @@
 				2EB395B41D3C0D1A00BDA594 /* PokemonItemCellView.swift in Sources */,
 				2EB3957D1D3BFFB700BDA594 /* WindowCoordinable.swift in Sources */,
 				2EB395E31D3C37F000BDA594 /* UIView+Extended.swift in Sources */,
-				2E32A3D11D4B90AC00C8E4C2 /* AboutItemCell+View.swift in Sources */,
 				2E3B3A731D47B1C2004455AD /* EmptyState.swift in Sources */,
 				2EB395751D3BFE2900BDA594 /* TestEnviromentDetector.swift in Sources */,
 				2E3B3A531D4657D0004455AD /* WeaknessListCollectionDataSource.swift in Sources */,
@@ -2746,6 +2745,7 @@
 				2E3B3A551D46594A004455AD /* PokemonDetailViewController+View.swift in Sources */,
 				2E12BFCF1D3FDBF900D922CC /* PokemonNumberFormatter.swift in Sources */,
 				2EB3959A1D3C079E00BDA594 /* ConfigurableUI.swift in Sources */,
+				2E27321D1D4FF665002AD3A6 /* AboutItemCell+View.swift in Sources */,
 				2E12BFB31D3FCD5700D922CC /* Assembly+DataSource.swift in Sources */,
 				2EB395A21D3C088D00BDA594 /* BaseViewController.swift in Sources */,
 				2E3B3A471D4655AB004455AD /* WeaknessItemCell+View.swift in Sources */,
