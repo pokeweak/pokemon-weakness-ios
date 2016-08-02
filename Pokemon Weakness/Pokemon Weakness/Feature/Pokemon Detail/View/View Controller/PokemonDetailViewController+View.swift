@@ -20,7 +20,7 @@ extension PokemonDetailViewController: PokemonDetailView {
     func configureDetail(with pokemon: PokemonViewModel) {
         
         pokemonImageView.image = UIImage(named: pokemon.image)
-        pokemonBackgroundView.backgroundColor = pokemon.color.alpha(0.8)
+        pokemonBackgroundView.backgroundColor = pokemon.color
         pokemonNumberLabel.text = pokemon.number
         pokemonNameLabel.text = pokemon.name
         
