@@ -42,7 +42,7 @@ class PokemonListCollectionDataSource<T>: CollectionDataSource<PokemonViewModel>
     override func collection<T: UICollectionView>(collection: T, sizeForRowAtIndexPath: NSIndexPath) -> CGSize {
         
         let margin = 10
-        let numberOfColumns = 3
+        let numberOfColumns = screen.isWideScreen() ? 3 : 2
         let size = screen.screnSize(
             byAddingMargins: margin
         )

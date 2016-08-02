@@ -20,4 +20,11 @@ extension UIScreen {
     func screnSize(byAddingMargins margin: Int) -> CGFloat {
         return bounds.width - CGFloat(margin ^ 2)
     }
+    
+    /**
+     Detect if the current device has wide screen
+     */
+    func isWideScreen() -> Bool {
+        return bounds.height >= 568.0
+    }
 }
