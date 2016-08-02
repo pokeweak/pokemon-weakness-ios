@@ -10,7 +10,9 @@ import UIKit
 
 private struct PokemonDetailViewConfiguration {
     static let windowHeightForMinimalItems = 158
+    static let windowHeightForMaximalItems = 235
     static let minimalItems = 3
+    static let maximalItems = 7
 }
 
 extension PokemonDetailViewController: PokemonDetailView {
@@ -24,6 +26,10 @@ extension PokemonDetailViewController: PokemonDetailView {
         
         if pokemon.weaknesses.count <= PokemonDetailViewConfiguration.minimalItems {
             pokemonBackgroundViewBottomLayoutConstraint.constant = CGFloat(PokemonDetailViewConfiguration.windowHeightForMinimalItems)
+        }
+        
+        if pokemon.weaknesses.count >= PokemonDetailViewConfiguration.maximalItems {
+            pokemonBackgroundViewBottomLayoutConstraint.constant = CGFloat(PokemonDetailViewConfiguration.windowHeightForMaximalItems)
         }
     }
 }
