@@ -41,6 +41,15 @@ class WeaknessListCollectionDataSource<T>: CollectionDataSource<WeaknessViewMode
         
         let itemWidth = CGFloat(collectionWidth) / CGFloat(numberOfColumns) - CGFloat(margin)
         
+        let needToCenterWeaknesses = items.count < 3
+        
+        if needToCenterWeaknesses {
+            
+            let lateralMargin = (collectionWidth - (itemWidth * CGFloat(items.count) + CGFloat(margin * 2))) / 2
+            
+            collection.contentInset = UIEdgeInsets(top: 0, left: lateralMargin, bottom: 0, right: lateralMargin)
+        }
+        
         return CGSize(
             width: itemWidth,
             height: WeaknessItemCell.size.height
