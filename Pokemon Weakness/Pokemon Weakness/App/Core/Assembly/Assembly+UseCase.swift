@@ -21,4 +21,10 @@ extension Assembly {
             getPokemonsUseCase: getGetPokemonsUseCase()
         )
     }
+    
+    func getOpenTwitterUseCase() -> OpenTwitterUseCase {
+        return OpenTwitterUseCase(
+            application: getApplication()
+        )
+    }
 }

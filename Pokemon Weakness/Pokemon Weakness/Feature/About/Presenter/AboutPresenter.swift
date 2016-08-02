@@ -12,10 +12,15 @@ class AboutPresenter {
     
     weak var view: AboutView?
     
-    private let aboutCollectionDataSource: CollectionDataSource<AboutItemViewModel>
+    private let aboutCollectionDataSource: AboutCollectionDataSource<AboutItemViewModel>
+    private let openTwitterUseCase: OpenTwitterUseCase
     
-    init(aboutCollectionDataSource: CollectionDataSource<AboutItemViewModel>) {
+    init(aboutCollectionDataSource: AboutCollectionDataSource<AboutItemViewModel>,
+         openTwitterUseCase: OpenTwitterUseCase)
+    {
         self.aboutCollectionDataSource = aboutCollectionDataSource
+        self.openTwitterUseCase = openTwitterUseCase
+        self.aboutCollectionDataSource.delegate = self
     }
     
     func viewDidLoad() {
@@ -54,5 +59,14 @@ class AboutPresenter {
         )
         
         view?.reload(true)
+    }
+}
+
+// MARK: - AboutCollectionDataSourceDelegate
+
+extension AboutPresenter: AboutCollectionDataSourceDelegate {
+    
+    func didSelect(person: AboutItemViewModel) {
+        openTwitterUseCase.open(person.twitter)
     }
 }

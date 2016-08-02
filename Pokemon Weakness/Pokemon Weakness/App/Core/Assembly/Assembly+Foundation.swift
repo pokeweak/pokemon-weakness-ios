@@ -10,6 +10,10 @@ import UIKit
 
 extension Assembly {
     
+    func getApplication() -> UIApplication {
+        return UIApplication.sharedApplication()
+    }
+    
     func getApplicationWindow() -> UIWindow? {
         
         let frame = getMainScreen().bounds
