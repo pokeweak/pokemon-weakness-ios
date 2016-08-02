@@ -325,6 +325,8 @@
 		2E12BFCF1D3FDBF900D922CC /* PokemonNumberFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E12BFCE1D3FDBF900D922CC /* PokemonNumberFormatter.swift */; };
 		2E12BFD11D3FDD5300D922CC /* Assembly+Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E12BFD01D3FDD5300D922CC /* Assembly+Mapper.swift */; };
 		2E1C92A01D50F32000ACA981 /* OpenTwitterUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1C929F1D50F32000ACA981 /* OpenTwitterUseCase.swift */; };
+		2E1C92A81D51045C00ACA981 /* PokeweakSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1C92A71D51045C00ACA981 /* PokeweakSnapshot.swift */; };
+		2E1C92B11D51051E00ACA981 /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1C92B01D51051E00ACA981 /* SnapshotHelper.swift */; };
 		2E2422251D3D42C800B30580 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2422241D3D42C800B30580 /* Math.swift */; };
 		2E2422281D3D583E00B30580 /* pokemon_list.json in Resources */ = {isa = PBXBuildFile; fileRef = 2E2422271D3D583E00B30580 /* pokemon_list.json */; };
 		2E2422291D3D584400B30580 /* pokemon_list.json in Resources */ = {isa = PBXBuildFile; fileRef = 2E2422271D3D583E00B30580 /* pokemon_list.json */; };
@@ -435,6 +437,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		2E1C92AA1D51045C00ACA981 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E8952631D3BE35E00E7DBCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E89526A1D3BE35E00E7DBCD;
+			remoteInfo = "Pokemon Weakness";
+		};
 		2E8952801D3BE35F00E7DBCD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2E8952631D3BE35E00E7DBCD /* Project object */;
@@ -763,6 +772,10 @@
 		2E12BFCE1D3FDBF900D922CC /* PokemonNumberFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonNumberFormatter.swift; sourceTree = "<group>"; };
 		2E12BFD01D3FDD5300D922CC /* Assembly+Mapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Assembly+Mapper.swift"; sourceTree = "<group>"; };
 		2E1C929F1D50F32000ACA981 /* OpenTwitterUseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenTwitterUseCase.swift; sourceTree = "<group>"; };
+		2E1C92A51D51045C00ACA981 /* PokeweakSnapshot.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokeweakSnapshot.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E1C92A71D51045C00ACA981 /* PokeweakSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeweakSnapshot.swift; sourceTree = "<group>"; };
+		2E1C92A91D51045C00ACA981 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E1C92B01D51051E00ACA981 /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapshotHelper.swift; sourceTree = "<group>"; };
 		2E2422241D3D42C800B30580 /* Math.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
 		2E2422271D3D583E00B30580 /* pokemon_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pokemon_list.json; sourceTree = "<group>"; };
 		2E24222C1D3D59CA00B30580 /* JSONLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONLoader.swift; sourceTree = "<group>"; };
@@ -879,6 +892,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2E1C92A21D51045C00ACA981 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2E8952681D3BE35E00E7DBCD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -1300,6 +1320,24 @@
 			path = "Use Case";
 			sourceTree = "<group>";
 		};
+		2E1C92A61D51045C00ACA981 /* PokeweakSnapshot */ = {
+			isa = PBXGroup;
+			children = (
+				2E1C92A71D51045C00ACA981 /* PokeweakSnapshot.swift */,
+				2E1C92AF1D51050800ACA981 /* Utils */,
+				2E1C92A91D51045C00ACA981 /* Info.plist */,
+			);
+			path = PokeweakSnapshot;
+			sourceTree = "<group>";
+		};
+		2E1C92AF1D51050800ACA981 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				2E1C92B01D51051E00ACA981 /* SnapshotHelper.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		2E2422231D3D42BD00B30580 /* Math */ = {
 			isa = PBXGroup;
 			children = (
@@ -1582,6 +1620,7 @@
 			children = (
 				2E89526D1D3BE35E00E7DBCD /* Pokemon Weakness */,
 				2EB395391D3BE9AE00BDA594 /* Tests ✅ */,
+				2E1C92A61D51045C00ACA981 /* PokeweakSnapshot */,
 				2E89526C1D3BE35E00E7DBCD /* Products */,
 				E1DF30253E1E389C2AAAAA9B /* Pods */,
 				73D6D18F2FCB8DAD1B84BF75 /* Frameworks */,
@@ -1593,6 +1632,7 @@
 			children = (
 				2E89526B1D3BE35E00E7DBCD /* Pokemon Weakness.app */,
 				2E89527F1D3BE35F00E7DBCD /* Pokemon WeaknessTests.xctest */,
+				2E1C92A51D51045C00ACA981 /* PokeweakSnapshot.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2188,6 +2228,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		2E1C92A41D51045C00ACA981 /* PokeweakSnapshot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E1C92AE1D51045C00ACA981 /* Build configuration list for PBXNativeTarget "PokeweakSnapshot" */;
+			buildPhases = (
+				2E1C92A11D51045C00ACA981 /* Sources */,
+				2E1C92A21D51045C00ACA981 /* Frameworks */,
+				2E1C92A31D51045C00ACA981 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E1C92AB1D51045C00ACA981 /* PBXTargetDependency */,
+			);
+			name = PokeweakSnapshot;
+			productName = PokeweakSnapshot;
+			productReference = 2E1C92A51D51045C00ACA981 /* PokeweakSnapshot.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		2E89526A1D3BE35E00E7DBCD /* Pokemon Weakness */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2E8952881D3BE35F00E7DBCD /* Build configuration list for PBXNativeTarget "Pokemon Weakness" */;
@@ -2239,6 +2297,10 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = Skydev;
 				TargetAttributes = {
+					2E1C92A41D51045C00ACA981 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 2E89526A1D3BE35E00E7DBCD;
+					};
 					2E89526A1D3BE35E00E7DBCD = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
@@ -2263,11 +2325,19 @@
 			targets = (
 				2E89526A1D3BE35E00E7DBCD /* Pokemon Weakness */,
 				2E89527E1D3BE35F00E7DBCD /* Pokemon WeaknessTests */,
+				2E1C92A41D51045C00ACA981 /* PokeweakSnapshot */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2E1C92A31D51045C00ACA981 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2E8952691D3BE35E00E7DBCD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2691,6 +2761,15 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2E1C92A11D51045C00ACA981 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E1C92A81D51045C00ACA981 /* PokeweakSnapshot.swift in Sources */,
+				2E1C92B11D51051E00ACA981 /* SnapshotHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2E8952671D3BE35E00E7DBCD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2818,6 +2897,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		2E1C92AB1D51045C00ACA981 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E89526A1D3BE35E00E7DBCD /* Pokemon Weakness */;
+			targetProxy = 2E1C92AA1D51045C00ACA981 /* PBXContainerItemProxy */;
+		};
 		2E8952811D3BE35F00E7DBCD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 2E89526A1D3BE35E00E7DBCD /* Pokemon Weakness */;
@@ -2838,6 +2922,28 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		2E1C92AC1D51045C00ACA981 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PokeweakSnapshot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = skydev.PokeweakSnapshot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Pokemon Weakness";
+			};
+			name = Debug;
+		};
+		2E1C92AD1D51045C00ACA981 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PokeweakSnapshot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = skydev.PokeweakSnapshot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Pokemon Weakness";
+			};
+			name = Release;
+		};
 		2E8952861D3BE35F00E7DBCD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2985,6 +3091,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2E1C92AE1D51045C00ACA981 /* Build configuration list for PBXNativeTarget "PokeweakSnapshot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E1C92AC1D51045C00ACA981 /* Debug */,
+				2E1C92AD1D51045C00ACA981 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		2E8952661D3BE35E00E7DBCD /* Build configuration list for PBXProject "Pokemon Weakness" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
