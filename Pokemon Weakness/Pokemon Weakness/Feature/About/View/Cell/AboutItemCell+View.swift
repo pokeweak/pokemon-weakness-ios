@@ -23,6 +23,6 @@ extension AboutItemCell: AboutItemCellView {
     }
     
     func setMemberColor(color: UIColor) {
-        memberBackgroundView.backgroundColor = color
+        memberBackgroundView.backgroundColor = color.alpha(0.8)
     }
 }

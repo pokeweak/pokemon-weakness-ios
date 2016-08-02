@@ -24,7 +24,7 @@ struct PokemonToViewModelMapper: Mappable {
     func mapObject(from: Pokemon) -> PokemonViewModel {
         
         let name = from.name
-        let number = pokemonNumberFormatter.format(from.number)
+        let number = "#\(pokemonNumberFormatter.format(from.number))"
         let image = String(from.number)
         let smallImage = image + "_small"
         let color = UIColor(hex: from.color)

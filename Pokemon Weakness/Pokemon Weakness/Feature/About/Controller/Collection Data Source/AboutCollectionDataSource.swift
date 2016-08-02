@@ -8,10 +8,16 @@
 
 import UIKit
 
+protocol AboutCollectionDataSourceDelegate: class {
+    func didSelect(person: AboutItemViewModel)
+}
+
 class AboutCollectionDataSource<T>: CollectionDataSource<AboutItemViewModel> {
     
     private let screen: UIScreen
     private let aboutItemCellRenderer: AboutItemCellRenderer
+    
+    weak var delegate: AboutCollectionDataSourceDelegate?
     
     init(screen: UIScreen,
          aboutItemCellRenderer: AboutItemCellRenderer)
@@ -45,5 +51,12 @@ class AboutCollectionDataSource<T>: CollectionDataSource<AboutItemViewModel> {
             width: itemWidth,
             height: AboutItemCell.size.height
         )
+    }
+    
+    func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+        
+        let person = itemAtIndexPath(indexPath)
+        
+        delegate?.didSelect(person)
     }
 }

@@ -27,7 +27,8 @@ extension Assembly {
     
     func getAboutPresenter() -> AboutPresenter {
         return AboutPresenter(
-            aboutCollectionDataSource: getAboutCollectionDataSource()
+            aboutCollectionDataSource: getAboutCollectionDataSource(),
+            openTwitterUseCase: getOpenTwitterUseCase()
         )
     }
 }

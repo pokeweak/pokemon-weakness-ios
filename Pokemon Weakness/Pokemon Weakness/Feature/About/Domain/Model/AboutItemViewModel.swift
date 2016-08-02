@@ -14,4 +14,5 @@ struct AboutItemViewModel {
     let color: UIColor
     let name: String
     let job: String
+    let twitter: NSURL
 }
