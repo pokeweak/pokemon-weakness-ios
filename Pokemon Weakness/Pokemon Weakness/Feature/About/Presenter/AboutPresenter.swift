@@ -23,7 +23,7 @@ class AboutPresenter {
         let team = [
             AboutItemViewModel(pokeball: "pokeball_green", color: .greenishTeal(), name: "Alex Bailon", job: "Product Designer"),
             AboutItemViewModel(pokeball: "pokeball_red", color: .tomato(), name: "Oscar Duran", job: "iOS Developer"),
-            AboutItemViewModel(pokeball: "pokeball_blue", color: .darkSkyBlue(), name: "Rafa Vázques", job: "Android Developer")
+            AboutItemViewModel(pokeball: "pokeball_blue", color: .darkSkyBlue(), name: "Rafa Vázquez", job: "Android Developer")
         ]
         
         aboutCollectionDataSource.items = team
