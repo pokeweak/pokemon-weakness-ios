@@ -39,6 +39,16 @@
                ReferencedContainer = "container:Pokemon Weakness.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2E1C92A41D51045C00ACA981"
+               BuildableName = "PokeweakSnapshot.xctest"
+               BlueprintName = "PokeweakSnapshot"
+               ReferencedContainer = "container:Pokemon Weakness.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
