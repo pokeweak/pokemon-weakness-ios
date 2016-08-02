@@ -1,7 +1,7 @@
 [
   {
-    "color": -10314629,
-    "colorText": "#629C7B",
+    "color": 8570017,
+    "colorText": "#82C4A1",
     "weaknesses": [
       "fire",
       "flying",
@@ -12,8 +12,8 @@
     "number": 1
   },
   {
-    "color": -11367574,
-    "colorText": "#528B6A",
+    "color": 8961217,
+    "colorText": "#88BCC1",
     "weaknesses": [
       "fire",
       "flying",
@@ -24,8 +24,8 @@
     "number": 2
   },
   {
-    "color": -10312565,
-    "colorText": "#62A48B",
+    "color": 3176574,
+    "colorText": "#30787E",
     "weaknesses": [
       "fire",
       "flying",
@@ -36,8 +36,8 @@
     "number": 3
   },
   {
-    "color": -7054725,
-    "colorText": "#945A7B",
+    "color": 15313528,
+    "colorText": "#E9AA78",
     "weaknesses": [
       "ground",
       "rock",
@@ -47,8 +47,8 @@
     "number": 4
   },
   {
-    "color": -7037788,
-    "colorText": "#949CA4",
+    "color": 13062464,
+    "colorText": "#C75140",
     "weaknesses": [
       "ground",
       "rock",
@@ -58,8 +58,8 @@
     "number": 5
   },
   {
-    "color": -8158358,
-    "colorText": "#83836A",
+    "color": 15704663,
+    "colorText": "#EFA257",
     "weaknesses": [
       "rock",
       "electric",
@@ -69,8 +69,8 @@
     "number": 6
   },
   {
-    "color": -11367524,
-    "colorText": "#528B9C",
+    "color": 5609135,
+    "colorText": "#5596AF",
     "weaknesses": [
       "electric",
       "grass"
@@ -79,8 +79,8 @@
     "number": 7
   },
   {
-    "color": -8678220,
-    "colorText": "#7B94B4",
+    "color": 11057631,
+    "colorText": "#A8B9DF",
     "weaknesses": [
       "electric",
       "grass"
@@ -89,8 +89,8 @@
     "number": 8
   },
   {
-    "color": -11902316,
-    "colorText": "#4A6294",
+    "color": 5732530,
+    "colorText": "#5778B2",
     "weaknesses": [
       "electric",
       "grass"
@@ -99,8 +99,8 @@
     "number": 9
   },
   {
-    "color": -7623590,
-    "colorText": "#8BAC5A",
+    "color": 6658123,
+    "colorText": "#65984B",
     "weaknesses": [
       "fire",
       "flying",
@@ -110,8 +110,8 @@
     "number": 10
   },
   {
-    "color": -10321095,
-    "colorText": "#628339",
+    "color": 4932456,
+    "colorText": "#4B4368",
     "weaknesses": [
       "fire",
       "flying",
@@ -367,8 +367,8 @@
     "number": 34
   },
   {
-    "color": 0,
-    "colorText": "#000000",
+    "color": 16174805,
+    "colorText": "#f6ced5",
     "weaknesses": [
       "steel",
       "poison"
@@ -387,8 +387,8 @@
     "number": 36
   },
   {
-    "color": 0,
-    "colorText": "#000000",
+    "color": 12352347,
+    "colorText": "#bc7b5b",
     "weaknesses": [
       "ground",
       "rock",
