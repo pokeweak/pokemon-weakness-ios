@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  Pokemon Weakness
+
+  Created by Oscar Duran on 26/7/16.
+  Copyright © 2016 Skydev. All rights reserved.
+*/
+
+"pokemon_list_empty_state.title" = "Pokémon not found";

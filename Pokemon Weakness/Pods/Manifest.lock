@@ -1,0 +1,32 @@
+PODS:
+  - DZNEmptyDataSet (1.8.1)
+  - FXBlurView (1.6.4)
+  - Nimble (4.1.0)
+  - PopupDialog (0.2.2):
+    - FXBlurView
+  - PromiseKit/CorePromise (3.2.0)
+  - Quick (0.9.2)
+  - SDWebImage (3.8.1):
+    - SDWebImage/Core (= 3.8.1)
+  - SDWebImage/Core (3.8.1)
+
+DEPENDENCIES:
+  - DZNEmptyDataSet (~> 1.8.1)
+  - Nimble (~> 4.1)
+  - PopupDialog (~> 0.2.2)
+  - PromiseKit/CorePromise (~> 3.2)
+  - Quick (~> 0.9)
+  - SDWebImage (~> 3.8.1)
+
+SPEC CHECKSUMS:
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  FXBlurView: db786c2561cb49a09ae98407f52460096ab8a44f
+  Nimble: 97a0a4cae5124c117115634b2d055d8c97d0af19
+  PopupDialog: 742c929ba421a7ac28bc6b3a284c3d1b5982fdb3
+  PromiseKit: 1db024241265f428137a9f3c00ff9590740c4be6
+  Quick: 18d057bc66451eedd5d1c8dc99ba2a5db6e60226
+  SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
+
+PODFILE CHECKSUM: a73c374dc306a6dc0be4a5b772cd455f1b9de2bf
+
+COCOAPODS: 1.0.1

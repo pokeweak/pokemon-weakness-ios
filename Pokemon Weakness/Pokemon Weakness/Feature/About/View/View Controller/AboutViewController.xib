@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AboutViewController" customModule="Pokemon_Weakness" customModuleProvider="target">
+            <connections>
+                <outlet property="collectionView" destination="BUJ-n6-W2c" id="N2d-Xx-lJr"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="BUJ-n6-W2c">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="HIT-Q6-qIh">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="10" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pokémon images &amp; names © 1995-2016 Nintendo/Game Freak." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M1e-RI-pRD">
+                    <rect key="frame" x="8" y="571" width="584" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="sGj-TT-Qr7"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <color key="textColor" red="0.49803921580314636" green="0.58431375026702881" blue="0.63921570777893066" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="M1e-RI-pRD" secondAttribute="bottom" constant="8" id="14i-oW-dky"/>
+                <constraint firstAttribute="trailing" secondItem="M1e-RI-pRD" secondAttribute="trailing" constant="8" id="4Z7-e9-z5m"/>
+                <constraint firstItem="BUJ-n6-W2c" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="6WE-Y4-130"/>
+                <constraint firstItem="M1e-RI-pRD" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="MmF-Zz-7YH"/>
+                <constraint firstItem="BUJ-n6-W2c" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="cDR-ZS-BWZ"/>
+                <constraint firstAttribute="trailing" secondItem="BUJ-n6-W2c" secondAttribute="trailing" id="pdy-LL-AI8"/>
+                <constraint firstAttribute="bottom" secondItem="BUJ-n6-W2c" secondAttribute="bottom" id="yxN-D5-PrZ"/>
+            </constraints>
+            <point key="canvasLocation" x="198" y="414"/>
+        </view>
+    </objects>
+</document>
