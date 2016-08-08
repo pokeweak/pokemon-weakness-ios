@@ -55,7 +55,7 @@ All this layers are connected using [Promisekit](http://promisekit.org/) for the
 
 ## Dependency injection 💉
 
-Dependency injection is has been achieved by using [Service Locator](https://msdn.microsoft.com/es-es/library/ff648968.aspx) pattern with an `Asssembly` that's the one in charge of keeping all the references, I took this approach by using swift extensions of this `Assembly` so it's easier to link dependencies.
+Dependency injection is has been achieved by using [Service Locator](https://msdn.microsoft.com/es-es/library/ff648968.aspx) pattern with an `Assembly` that's the one in charge of keeping all the references, I took this approach by using swift extensions of this `Assembly` so it's easier to link dependencies.
 
 ## Libraries used in this project
 
