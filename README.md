@@ -5,6 +5,7 @@ Pokémon Weakness for iOS
 
 <img src="https://img.shields.io/badge/platform-iOS-blue.svg?style=flat" alt="Platform iOS" />
 <a href="https://developer.apple.com/swift"><img src="https://img.shields.io/badge/swift2-compatible-4BC51D.svg?style=flat" alt="Swift 2 compatible" /></a>
+[![codebeat badge](https://codebeat.co/badges/8d16a43c-e84f-49e7-967e-170f013c4ca9)](https://codebeat.co/projects/github-com-pokeweak-pokemon-weakness-ios)
 [![License](https://img.shields.io/badge/license-Beerware-red.svg?style=flat)](https://fedoraproject.org/wiki/Licensing/Beerware)
 
 This README provides basic information for some of the most commong tasks you'll have to perform during the development of the app.
